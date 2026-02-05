@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "syndred:block/anima_conflux_bottom",
+    "up": "syndred:block/anima_conflux_main_new",
+    "north": "syndred:block/anima_conflux_side_new",
+    "east": "syndred:block/anima_conflux_side_new",
+    "south": "syndred:block/anima_conflux_side_new",
+    "west": "syndred:block/anima_conflux_side_new",
+    "particle": "syndred:block/anima_conflux_bottom"
+  },
+  "render_type": "solid"
+}

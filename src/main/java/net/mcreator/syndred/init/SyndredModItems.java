@@ -20,9 +20,11 @@ public class SyndredModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(SyndredMod.MODID);
 	public static final DeferredItem<Item> DEEPSLATE_SOULSTEEL_ORE;
 	public static final DeferredItem<Item> RAW_SOULSTEEL;
+	public static final DeferredItem<Item> ANIMA_CONFLUX;
 	static {
 		DEEPSLATE_SOULSTEEL_ORE = block(SyndredModBlocks.DEEPSLATE_SOULSTEEL_ORE);
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
+		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
 	}
 
 	// Start of user code block custom items

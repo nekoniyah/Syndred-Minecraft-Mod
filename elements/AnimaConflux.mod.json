@@ -2,14 +2,14 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "deepslate_soulsteel_ore",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "anima_conflux_bottom",
+    "textureTop": "anima_conflux_main_new",
+    "textureLeft": "anima_conflux_side_new",
+    "textureFront": "anima_conflux_side_new",
+    "textureRight": "anima_conflux_side_new",
+    "textureBack": "anima_conflux_side_new",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -39,11 +39,11 @@
       }
     ],
     "customProperties": [],
-    "name": "Deepslate Soulsteel Ore",
+    "name": "Anima Conflux",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 4.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -56,20 +56,20 @@
         "value": "CUSTOM:SyndredTab"
       }
     ],
-    "destroyTool": "pickaxe",
+    "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:RawSoulsteel"
+      "value": ""
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
-    "tickRate": 0,
+    "tickRate": 20,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -97,7 +97,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""
@@ -116,14 +116,14 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "IRON",
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
     "vibrationSensitivityRadius": {
       "fixedValue": 7.0
     },
-    "hasInventory": false,
+    "hasInventory": true,
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 99,
@@ -139,20 +139,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": true,
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.DEEPSLATE"
-      },
-      {
-        "value": "Blocks.COBBLED_DEEPSLATE"
+        "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 3,
-    "minGenerateHeight": -64,
-    "maxGenerateHeight": -10
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

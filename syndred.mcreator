@@ -43,6 +43,24 @@
           "src/main/resources/assets/syndred/models/item/raw_soulsteel.json"
         ]
       }
+    },
+    {
+      "name": "AnimaConflux",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anima_conflux",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/blockstates/anima_conflux.json",
+          "src/main/resources/assets/syndred/items/anima_conflux.json",
+          "src/main/resources/assets/syndred/models/block/anima_conflux.json",
+          "src/main/java/net/mcreator/syndred/block/AnimaConfluxBlock.java",
+          "src/main/resources/assets/syndred/models/item/anima_conflux.json",
+          "src/main/java/net/mcreator/syndred/block/entity/AnimaConfluxBlockEntity.java",
+          "src/main/resources/data/syndred/loot_table/blocks/anima_conflux.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -53,6 +71,9 @@
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:DeepslateSoulsteelOre"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:AnimaConflux"
     ]
   },
   "tab_element_order": {},
@@ -60,12 +81,14 @@
     "en_us": {
       "item.syndred.deepslate_soulsteel_ore": "Deepslate Soulsteel Ore",
       "item_group.syndred.syndred_tab": "Syndred Tab",
-      "item.syndred.raw_soulsteel": "Raw Soulsteel"
+      "item.syndred.raw_soulsteel": "Raw Soulsteel",
+      "item.syndred.anima_conflux": "Anima Conflux"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/syndred/init/SyndredModBlocks.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModBlockEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
