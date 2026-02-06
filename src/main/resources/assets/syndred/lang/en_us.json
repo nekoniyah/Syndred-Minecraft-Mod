@@ -2,5 +2,9 @@
   "item.syndred.deepslate_soulsteel_ore": "Deepslate Soulsteel Ore",
   "item_group.syndred.syndred_tab": "Syndred Tab",
   "item.syndred.raw_soulsteel": "Raw Soulsteel",
-  "item.syndred.anima_conflux": "Anima Conflux"
+  "item.syndred.anima_conflux": "Anima Conflux",
+  "item.syndred.soulsteel_ore": "Deepslate Soulsteel Ore",
+  "item.syndred.deepslate_sphalerite_ore": "Deepslate Soulsteel Ore",
+  "item.syndred.sphalerite_ore": "Deepslate Soulsteel Ore",
+  "item.syndred.raw_sphalerite": "Raw Sphalerite"
 }

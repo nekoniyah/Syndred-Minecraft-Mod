@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "deepslate_soulsteel_ore",
+    "texture": "sphalerite_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -43,8 +43,8 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 4.0,
-    "resistance": 10.0,
+    "hardness": 2.5,
+    "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
@@ -116,7 +116,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "IRON",
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
@@ -143,16 +143,16 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.DEEPSLATE"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.COBBLED_DEEPSLATE"
+        "value": "Blocks.STONE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 3,
-    "minGenerateHeight": -64,
-    "maxGenerateHeight": -20
+    "frequencyPerChunks": 18,
+    "frequencyOnChunk": 10,
+    "minGenerateHeight": -16,
+    "maxGenerateHeight": 128
   }
 }

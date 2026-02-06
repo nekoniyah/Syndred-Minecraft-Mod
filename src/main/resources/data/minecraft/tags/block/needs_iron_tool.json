@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "syndred:deepslate_soulsteel_ore"
+    "syndred:deepslate_soulsteel_ore",
+    "syndred:soulsteel_ore"
   ]
 }

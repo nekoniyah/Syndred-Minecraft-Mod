@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "deepslate_soulsteel_ore",
+    "texture": "soulsteel_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -58,7 +58,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:RawSoulsteel"
+      "value": "CUSTOM:RawSphalerite"
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
@@ -143,10 +143,10 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.DEEPSLATE"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.COBBLED_DEEPSLATE"
+        "value": "Blocks.STONE"
       }
     ],
     "generationShape": "UNIFORM",

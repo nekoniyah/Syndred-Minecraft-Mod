@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.syndred.item.RawSphaleriteItem;
 import net.mcreator.syndred.item.RawSoulsteelItem;
 import net.mcreator.syndred.SyndredMod;
 
@@ -21,10 +22,18 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> DEEPSLATE_SOULSTEEL_ORE;
 	public static final DeferredItem<Item> RAW_SOULSTEEL;
 	public static final DeferredItem<Item> ANIMA_CONFLUX;
+	public static final DeferredItem<Item> SOULSTEEL_ORE;
+	public static final DeferredItem<Item> DEEPSLATE_SPHALERITE_ORE;
+	public static final DeferredItem<Item> SPHALERITE_ORE;
+	public static final DeferredItem<Item> RAW_SPHALERITE;
 	static {
 		DEEPSLATE_SOULSTEEL_ORE = block(SyndredModBlocks.DEEPSLATE_SOULSTEEL_ORE);
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
+		SOULSTEEL_ORE = block(SyndredModBlocks.SOULSTEEL_ORE);
+		DEEPSLATE_SPHALERITE_ORE = block(SyndredModBlocks.DEEPSLATE_SPHALERITE_ORE);
+		SPHALERITE_ORE = block(SyndredModBlocks.SPHALERITE_ORE);
+		RAW_SPHALERITE = register("raw_sphalerite", RawSphaleriteItem::new);
 	}
 
 	// Start of user code block custom items
