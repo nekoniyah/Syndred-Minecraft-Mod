@@ -552,11 +552,11 @@
       "metadata": {
         "files": [
           "src/main/resources/data/syndred/loot_table/blocks/sphalerite_block.json",
-          "src/main/resources/assets/syndred/models/item/sphalerite_block.json",
-          "src/main/resources/assets/syndred/items/sphalerite_block.json",
-          "src/main/resources/assets/syndred/models/block/sphalerite_block.json",
           "src/main/java/net/mcreator/syndred/block/SphaleriteBlockBlock.java",
-          "src/main/resources/assets/syndred/blockstates/sphalerite_block.json"
+          "src/main/resources/assets/syndred/items/sphalerite_block.json",
+          "src/main/resources/assets/syndred/models/item/sphalerite_block.json",
+          "src/main/resources/assets/syndred/blockstates/sphalerite_block.json",
+          "src/main/resources/assets/syndred/models/block/sphalerite_block.json"
         ]
       },
       "path": "~/Blocks/Block Versions"
@@ -569,8 +569,8 @@
       "registry_name": "sphalerite_block_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/syndred/recipe/sphalerite_block_recipe.json",
-          "src/main/resources/data/syndred/advancement/recipes/sphalerite_block_recipe.json"
+          "src/main/resources/data/syndred/advancement/recipes/sphalerite_block_recipe.json",
+          "src/main/resources/data/syndred/recipe/sphalerite_block_recipe.json"
         ]
       },
       "path": "~/Recipes/Crafting/Sphalerite Stuff"
@@ -583,8 +583,8 @@
       "registry_name": "sphalerite_ingot_recipe_from_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/syndred/advancement/recipes/sphalerite_ingot_recipe_from_block.json",
-          "src/main/resources/data/syndred/recipe/sphalerite_ingot_recipe_from_block.json"
+          "src/main/resources/data/syndred/recipe/sphalerite_ingot_recipe_from_block.json",
+          "src/main/resources/data/syndred/advancement/recipes/sphalerite_ingot_recipe_from_block.json"
         ]
       },
       "path": "~/Recipes/Crafting/Sphalerite Stuff"
@@ -611,8 +611,8 @@
       "registry_name": "soulsteel_axe_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/syndred/recipe/soulsteel_axe_recipe.json",
-          "src/main/resources/data/syndred/advancement/recipes/soulsteel_axe_recipe.json"
+          "src/main/resources/data/syndred/advancement/recipes/soulsteel_axe_recipe.json",
+          "src/main/resources/data/syndred/recipe/soulsteel_axe_recipe.json"
         ]
       },
       "path": "~/Recipes/Crafting/Soulsteel Stuff"
@@ -625,8 +625,8 @@
       "registry_name": "soulsteel_axe_recipe_2",
       "metadata": {
         "files": [
-          "src/main/resources/data/syndred/advancement/recipes/soulsteel_axe_recipe_2.json",
-          "src/main/resources/data/syndred/recipe/soulsteel_axe_recipe_2.json"
+          "src/main/resources/data/syndred/recipe/soulsteel_axe_recipe_2.json",
+          "src/main/resources/data/syndred/advancement/recipes/soulsteel_axe_recipe_2.json"
         ]
       },
       "path": "~/Recipes/Crafting/Soulsteel Stuff"
@@ -741,6 +741,7 @@
       "src/main/java/net/mcreator/syndred/init/SyndredModBlocks.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlockEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/syndred/init/SyndredModModels.java",
