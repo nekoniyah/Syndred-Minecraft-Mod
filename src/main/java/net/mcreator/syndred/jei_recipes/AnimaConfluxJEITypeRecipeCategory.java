@@ -10,6 +10,16 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.syndred.init.SyndredModJeiPlugin;
 import net.mcreator.syndred.init.SyndredModBlocks;
 
+import mezz.jei.api.recipe.types.IRecipeType;
+import mezz.jei.api.recipe.category.IRecipeCategory;
+import mezz.jei.api.recipe.RecipeIngredientRole;
+import mezz.jei.api.recipe.IFocusGroup;
+import mezz.jei.api.helpers.IGuiHelper;
+import mezz.jei.api.gui.ingredient.IRecipeSlotsView;
+import mezz.jei.api.gui.drawable.IDrawable;
+import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;
+import mezz.jei.api.constants.VanillaTypes;
+
 import java.util.List;
 
 public class AnimaConfluxJEITypeRecipeCategory implements IRecipeCategory<AnimaConfluxJEITypeRecipe> {

@@ -6,6 +6,13 @@ import net.minecraft.resources.ResourceLocation;
 import net.mcreator.syndred.jei_recipes.AnimaConfluxJEITypeRecipeCategory;
 import net.mcreator.syndred.jei_recipes.AnimaConfluxJEITypeRecipe;
 
+import mezz.jei.api.registration.IRecipeRegistration;
+import mezz.jei.api.registration.IRecipeCategoryRegistration;
+import mezz.jei.api.registration.IRecipeCatalystRegistration;
+import mezz.jei.api.recipe.types.IRecipeType;
+import mezz.jei.api.JeiPlugin;
+import mezz.jei.api.IModPlugin;
+
 import java.util.stream.Collectors;
 import java.util.List;
 
