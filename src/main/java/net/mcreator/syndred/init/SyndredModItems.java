@@ -21,10 +21,8 @@ import java.util.function.Function;
 
 public class SyndredModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(SyndredMod.MODID);
-	public static final DeferredItem<Item> DEEPSLATE_SOULSTEEL_ORE;
 	public static final DeferredItem<Item> RAW_SOULSTEEL;
 	public static final DeferredItem<Item> ANIMA_CONFLUX;
-	public static final DeferredItem<Item> SOULSTEEL_ORE;
 	public static final DeferredItem<Item> DEEPSLATE_SPHALERITE_ORE;
 	public static final DeferredItem<Item> SPHALERITE_ORE;
 	public static final DeferredItem<Item> RAW_SPHALERITE;
@@ -32,11 +30,11 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> SPHALERITE_INGOT;
 	public static final DeferredItem<Item> RAW_SOULSTEEL_BLOCK;
 	public static final DeferredItem<Item> RAW_SPHALERITE_BLOCK;
+	public static final DeferredItem<Item> SOULSTEEL_ORE;
+	public static final DeferredItem<Item> DEEPSLATE_SOULSTEEL_ORE;
 	static {
-		DEEPSLATE_SOULSTEEL_ORE = block(SyndredModBlocks.DEEPSLATE_SOULSTEEL_ORE);
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
-		SOULSTEEL_ORE = block(SyndredModBlocks.SOULSTEEL_ORE);
 		DEEPSLATE_SPHALERITE_ORE = block(SyndredModBlocks.DEEPSLATE_SPHALERITE_ORE);
 		SPHALERITE_ORE = block(SyndredModBlocks.SPHALERITE_ORE);
 		RAW_SPHALERITE = register("raw_sphalerite", RawSphaleriteItem::new);
@@ -44,6 +42,8 @@ public class SyndredModItems {
 		SPHALERITE_INGOT = register("sphalerite_ingot", SphaleriteIngotItem::new);
 		RAW_SOULSTEEL_BLOCK = block(SyndredModBlocks.RAW_SOULSTEEL_BLOCK);
 		RAW_SPHALERITE_BLOCK = block(SyndredModBlocks.RAW_SPHALERITE_BLOCK);
+		SOULSTEEL_ORE = block(SyndredModBlocks.SOULSTEEL_ORE);
+		DEEPSLATE_SOULSTEEL_ORE = block(SyndredModBlocks.DEEPSLATE_SOULSTEEL_ORE);
 	}
 
 	// Start of user code block custom items

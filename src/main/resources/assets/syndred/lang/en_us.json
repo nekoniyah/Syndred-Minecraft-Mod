@@ -1,9 +1,7 @@
 {
-  "item.syndred.deepslate_soulsteel_ore": "Deepslate Soulsteel Ore",
   "item_group.syndred.syndred_tab": "Syndred Tab",
   "item.syndred.raw_soulsteel": "Raw Soulsteel",
   "item.syndred.anima_conflux": "Anima Conflux",
-  "item.syndred.soulsteel_ore": "Deepslate Soulsteel Ore",
   "item.syndred.deepslate_sphalerite_ore": "Deepslate Sphalerite Ore",
   "item.syndred.sphalerite_ore": "Deepslate Sphalerite Ore",
   "item.syndred.raw_sphalerite": "Raw Sphalerite",
@@ -15,5 +13,7 @@
   "painting.syndred.weez_painting.title": "Weez Painting",
   "painting.syndred.weez_painting.author": "FishyGruel",
   "item.syndred.raw_soulsteel_block": "Raw Soulsteel Block",
-  "item.syndred.raw_sphalerite_block": "Raw Sphalerite Block"
+  "item.syndred.raw_sphalerite_block": "Raw Sphalerite Block",
+  "item.syndred.soulsteel_ore": "Deepslate Soulsteel Ore",
+  "item.syndred.deepslate_soulsteel_ore": "Deepslate Soulsteel Ore"
 }

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 3,
+    "size": 5,
     "discard_chance_on_air_exposure": 0,
     "targets": [
       {
@@ -17,8 +17,10 @@
       },
       {
         "target": {
-          "predicate_type": "tag_match",
-          "tag": "c:stones"
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
         },
         "state": {
           "Name": "syndred:soulsteel_ore"

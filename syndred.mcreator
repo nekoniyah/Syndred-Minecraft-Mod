@@ -1,27 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "DeepslateSoulsteelOre",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "deepslate_soulsteel_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/syndred/blockstates/deepslate_soulsteel_ore.json",
-          "src/main/resources/data/syndred/worldgen/placed_feature/deepslate_soulsteel_ore.json",
-          "src/main/resources/assets/syndred/models/block/deepslate_soulsteel_ore.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/deepslate_soulsteel_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/syndred/block/DeepslateSoulsteelOreBlock.java",
-          "src/main/resources/data/syndred/loot_table/blocks/deepslate_soulsteel_ore.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/deepslate_soulsteel_ore.json",
-          "src/main/resources/assets/syndred/items/deepslate_soulsteel_ore.json",
-          "src/main/resources/assets/syndred/models/item/deepslate_soulsteel_ore.json"
-        ]
-      },
-      "path": "~/Ores/Soulsteel"
-    },
-    {
       "name": "SyndredTab",
       "type": "tab",
       "compiles": true,
@@ -64,27 +43,6 @@
         ]
       },
       "path": "~/Blocks/Functional/Anima Conflux"
-    },
-    {
-      "name": "SoulsteelOre",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "soulsteel_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/syndred/neoforge/biome_modifier/soulsteel_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/syndred/block/SoulsteelOreBlock.java",
-          "src/main/resources/data/syndred/worldgen/placed_feature/soulsteel_ore.json",
-          "src/main/resources/data/syndred/loot_table/blocks/soulsteel_ore.json",
-          "src/main/resources/assets/syndred/blockstates/soulsteel_ore.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/soulsteel_ore.json",
-          "src/main/resources/assets/syndred/items/soulsteel_ore.json",
-          "src/main/resources/assets/syndred/models/item/soulsteel_ore.json",
-          "src/main/resources/assets/syndred/models/block/soulsteel_ore.json"
-        ]
-      },
-      "path": "~/Ores/Soulsteel"
     },
     {
       "name": "DeepslateSphaleriteOre",
@@ -335,23 +293,65 @@
         ]
       },
       "path": "~/Ores/Sphalerite"
+    },
+    {
+      "name": "SoulsteelOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/neoforge/biome_modifier/soulsteel_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/syndred/block/SoulsteelOreBlock.java",
+          "src/main/resources/data/syndred/worldgen/placed_feature/soulsteel_ore.json",
+          "src/main/resources/data/syndred/loot_table/blocks/soulsteel_ore.json",
+          "src/main/resources/assets/syndred/blockstates/soulsteel_ore.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/soulsteel_ore.json",
+          "src/main/resources/assets/syndred/items/soulsteel_ore.json",
+          "src/main/resources/assets/syndred/models/item/soulsteel_ore.json",
+          "src/main/resources/assets/syndred/models/block/soulsteel_ore.json"
+        ]
+      },
+      "path": "~/Ores/Soulsteel"
+    },
+    {
+      "name": "DeepslateSoulsteelOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_soulsteel_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/blockstates/deepslate_soulsteel_ore.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/deepslate_soulsteel_ore.json",
+          "src/main/resources/assets/syndred/models/block/deepslate_soulsteel_ore.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/deepslate_soulsteel_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/syndred/block/DeepslateSoulsteelOreBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/deepslate_soulsteel_ore.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/deepslate_soulsteel_ore.json",
+          "src/main/resources/assets/syndred/items/deepslate_soulsteel_ore.json",
+          "src/main/resources/assets/syndred/models/item/deepslate_soulsteel_ore.json"
+        ]
+      },
+      "path": "~/Ores/Soulsteel"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DeepslateSoulsteelOre",
+      "~CUSTOM:SoulsteelOre",
       "~CUSTOM:RawSphaleriteBlock",
       "~CUSTOM:RawSoulsteelBlock",
       "~CUSTOM:SphaleriteOre",
-      "~CUSTOM:DeepslateSphaleriteOre",
-      "~CUSTOM:SoulsteelOre",
-      "~CUSTOM:DeepslateSoulsteelOre"
+      "~CUSTOM:DeepslateSphaleriteOre"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:RawSoulsteelBlock",
+      "~CUSTOM:DeepslateSoulsteelOre",
       "~CUSTOM:SoulsteelOre",
-      "~CUSTOM:DeepslateSoulsteelOre"
+      "~CUSTOM:RawSoulsteelBlock"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:AnimaConflux"
@@ -368,11 +368,9 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.syndred.deepslate_soulsteel_ore": "Deepslate Soulsteel Ore",
       "item_group.syndred.syndred_tab": "Syndred Tab",
       "item.syndred.raw_soulsteel": "Raw Soulsteel",
       "item.syndred.anima_conflux": "Anima Conflux",
-      "item.syndred.soulsteel_ore": "Deepslate Soulsteel Ore",
       "item.syndred.deepslate_sphalerite_ore": "Deepslate Sphalerite Ore",
       "item.syndred.sphalerite_ore": "Deepslate Sphalerite Ore",
       "item.syndred.raw_sphalerite": "Raw Sphalerite",
@@ -384,7 +382,9 @@
       "painting.syndred.weez_painting.title": "Weez Painting",
       "painting.syndred.weez_painting.author": "FishyGruel",
       "item.syndred.raw_soulsteel_block": "Raw Soulsteel Block",
-      "item.syndred.raw_sphalerite_block": "Raw Sphalerite Block"
+      "item.syndred.raw_sphalerite_block": "Raw Sphalerite Block",
+      "item.syndred.soulsteel_ore": "Deepslate Soulsteel Ore",
+      "item.syndred.deepslate_soulsteel_ore": "Deepslate Soulsteel Ore"
     }
   },
   "metadata": {

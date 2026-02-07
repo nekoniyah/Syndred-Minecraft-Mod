@@ -146,13 +146,13 @@
         "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
       }
     ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 3,
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 5,
     "minGenerateHeight": -64,
-    "maxGenerateHeight": -20
+    "maxGenerateHeight": -15
   }
 }
