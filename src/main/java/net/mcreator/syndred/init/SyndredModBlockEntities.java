@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.syndred.block.entity.EggIncubatorBlockEntity;
 import net.mcreator.syndred.block.entity.AnimaConfluxBlockEntity;
 import net.mcreator.syndred.SyndredMod;
 
@@ -23,6 +24,7 @@ import net.mcreator.syndred.SyndredMod;
 public class SyndredModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, SyndredMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<AnimaConfluxBlockEntity>> ANIMA_CONFLUX = register("anima_conflux", SyndredModBlocks.ANIMA_CONFLUX, AnimaConfluxBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<EggIncubatorBlockEntity>> EGG_INCUBATOR = register("egg_incubator", SyndredModBlocks.EGG_INCUBATOR, EggIncubatorBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -33,5 +35,6 @@ public class SyndredModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ANIMA_CONFLUX.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, EGG_INCUBATOR.get(), SidedInvWrapper::new);
 	}
 }

@@ -33,13 +33,13 @@
       "registry_name": "anima_conflux",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/syndred/block/AnimaConfluxBlock.java",
+          "src/main/resources/assets/syndred/blockstates/anima_conflux.json",
           "src/main/resources/assets/syndred/items/anima_conflux.json",
-          "src/main/java/net/mcreator/syndred/block/entity/AnimaConfluxBlockEntity.java",
-          "src/main/resources/assets/syndred/models/item/anima_conflux.json",
           "src/main/resources/assets/syndred/models/block/anima_conflux.json",
-          "src/main/resources/data/syndred/loot_table/blocks/anima_conflux.json",
-          "src/main/resources/assets/syndred/blockstates/anima_conflux.json"
+          "src/main/java/net/mcreator/syndred/block/AnimaConfluxBlock.java",
+          "src/main/resources/assets/syndred/models/item/anima_conflux.json",
+          "src/main/java/net/mcreator/syndred/block/entity/AnimaConfluxBlockEntity.java",
+          "src/main/resources/data/syndred/loot_table/blocks/anima_conflux.json"
         ]
       },
       "path": "~/Blocks/Functional/Anima Conflux"
@@ -640,11 +640,11 @@
       "registry_name": "charger",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/items/charger_spawn_egg.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/charger_biome_modifier.json",
-          "src/main/java/net/mcreator/syndred/client/renderer/ChargerRenderer.java",
           "src/main/resources/assets/syndred/models/item/charger_spawn_egg.json",
-          "src/main/java/net/mcreator/syndred/entity/ChargerEntity.java"
+          "src/main/resources/data/syndred/neoforge/biome_modifier/charger_biome_modifier.json",
+          "src/main/java/net/mcreator/syndred/entity/ChargerEntity.java",
+          "src/main/resources/assets/syndred/items/charger_spawn_egg.json",
+          "src/main/java/net/mcreator/syndred/client/renderer/ChargerRenderer.java"
         ]
       }
     },
@@ -658,10 +658,9 @@
         "files": [
           "src/main/java/net/mcreator/syndred/item/HornLanceItem.java",
           "src/main/resources/assets/syndred/models/item/horn_lance_gui.json",
-          "src/main/resources/assets/syndred/models/item/horn_lance.json",
-          "src/main/resources/assets/syndred/items/horn_lance.json"
+          "src/main/resources/assets/syndred/items/horn_lance.json",
+          "src/main/resources/assets/syndred/models/item/horn_lance.json"
         ]
-<<<<<<< HEAD
       }
     },
     {
@@ -904,10 +903,6 @@
         ]
       },
       "path": "~/Procedures/GUIs/Anima Conflux/Take"
-=======
-      },
-      "path": "~/Items/Weapons"
->>>>>>> refs/remotes/origin/master
     }
   ],
   "variable_elements": [],
@@ -1007,21 +1002,17 @@
       "item.syndred.sphalerite_block": "Soulsteel Block",
       "entity.syndred.charger": "Charger",
       "item.syndred.charger_spawn_egg": "Charger Spawn Egg",
-<<<<<<< HEAD
       "item.syndred.horn_lance": "Horn Lance",
       "item.syndred.egg_incubator": "Egg Incubator"
-=======
-      "item.syndred.horn_lance": "Horn Lance"
->>>>>>> refs/remotes/origin/master
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/syndred/network/MenuStateUpdateMessage.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModJeiPlugin.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
       "src/main/java/net/mcreator/syndred/jei_recipes/EmptyIngredient.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModJeiPlugin.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModRecipeTypes.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/syndred/init/SyndredModBrewingRecipes.java",
@@ -1030,9 +1021,9 @@
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModEntityRenderers.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/syndred/init/SyndredModModels.java",
       "src/main/java/net/mcreator/syndred/SyndredMod.java"
     ]
@@ -1140,7 +1131,6 @@
       },
       {
         "name": "Procedures",
-<<<<<<< HEAD
         "children": [
           {
             "name": "Utils",
@@ -1165,9 +1155,6 @@
             ]
           }
         ]
-=======
-        "children": []
->>>>>>> refs/remotes/origin/master
       }
     ]
   },

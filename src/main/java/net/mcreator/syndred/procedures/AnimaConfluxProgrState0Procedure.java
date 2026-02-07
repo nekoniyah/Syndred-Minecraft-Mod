@@ -9,7 +9,7 @@ public class AnimaConfluxProgrState0Procedure {
 		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "anima_conflux_progress") >= 1) {
 			return true;
 		}
-		return true;
+		return false;
 	}
 
 	private static double getBlockNBTNumber(LevelAccessor world, BlockPos pos, String tag) {

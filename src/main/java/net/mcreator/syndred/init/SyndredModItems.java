@@ -43,6 +43,7 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> SPHALERITE_BLOCK;
 	public static final DeferredItem<Item> CHARGER_SPAWN_EGG;
 	public static final DeferredItem<Item> HORN_LANCE;
+	public static final DeferredItem<Item> EGG_INCUBATOR;
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -68,6 +69,7 @@ public class SyndredModItems {
 		SPHALERITE_BLOCK = block(SyndredModBlocks.SPHALERITE_BLOCK);
 		CHARGER_SPAWN_EGG = register("charger_spawn_egg", properties -> new SpawnEggItem(SyndredModEntities.CHARGER.get(), properties));
 		HORN_LANCE = register("horn_lance", HornLanceItem::new);
+		EGG_INCUBATOR = block(SyndredModBlocks.EGG_INCUBATOR);
 	}
 
 	// Start of user code block custom items

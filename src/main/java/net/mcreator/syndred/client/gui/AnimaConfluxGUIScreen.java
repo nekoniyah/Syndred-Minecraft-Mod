@@ -65,6 +65,7 @@ public class AnimaConfluxGUIScreen extends AbstractContainerScreen<AnimaConfluxG
 		}
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_progress_part.png"), this.leftPos + 164, this.topPos + 76, 0, 0, 13, 16, 13, 16);
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_notched_10_progress.png"), this.leftPos + 162, this.topPos + 10, 0, 0, 18, 84, 18, 84);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/echo_dust_placeholder.png"), this.leftPos + 162, this.topPos + 103, 0, 0, 16, 16, 16, 16);
 	}
 
 	@Override

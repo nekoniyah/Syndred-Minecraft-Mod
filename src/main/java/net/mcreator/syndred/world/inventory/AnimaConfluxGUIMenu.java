@@ -5,6 +5,7 @@ import net.neoforged.neoforge.items.SlotItemHandler;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import net.neoforged.neoforge.items.IItemHandlerModifiable;
 import net.neoforged.neoforge.items.IItemHandler;
+import net.neoforged.neoforge.client.network.ClientPacketDistributor;
 import net.neoforged.neoforge.capabilities.Capabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -21,6 +22,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.syndred.network.AnimaConfluxGUISlotMessage;
 import net.mcreator.syndred.init.SyndredModMenus;
 
 import java.util.function.Supplier;
@@ -32,7 +34,7 @@ public class AnimaConfluxGUIMenu extends AbstractContainerMenu implements Syndre
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 23)
+			if (!this.containsKey(key) && this.size() >= 24)
 				return null;
 			return super.put(key, value);
 		}
@@ -158,6 +160,12 @@ public class AnimaConfluxGUIMenu extends AbstractContainerMenu implements Syndre
 			private final int slot = 13;
 			private int x = AnimaConfluxGUIMenu.this.x;
 			private int y = AnimaConfluxGUIMenu.this.y;
+
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(13, 1, stack.getCount());
+			}
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -312,6 +320,13 @@ public class AnimaConfluxGUIMenu extends AbstractContainerMenu implements Syndre
 						ihm.setStackInSlot(i, ItemStack.EMPTY);
 				}
 			}
+		}
+	}
+
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			ClientPacketDistributor.sendToServer(new AnimaConfluxGUISlotMessage(slotid, x, y, z, ctype, meta));
+			AnimaConfluxGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 

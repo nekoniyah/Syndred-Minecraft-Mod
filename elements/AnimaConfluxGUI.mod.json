@@ -265,6 +265,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "OnAnimaConfluxRecipeResultPick"
+          },
           "x": 247,
           "y": 71,
           "locked": false
@@ -378,6 +381,16 @@
           "use1Xscale": false,
           "x": 276,
           "y": 20,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "echo_dust_placeholder.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 113,
           "locked": false
         }
       }
