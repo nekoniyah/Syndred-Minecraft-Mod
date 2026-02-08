@@ -14,6 +14,8 @@ authors="The Syndred Team"
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
+[[mixins]]
+    config = "syndred.mixins.json"
 
 # Start of user code block custom mixins
 # End of user code block custom mixins

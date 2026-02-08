@@ -1,8 +1,6 @@
 {
   "type": "neoforge:add_features",
-  "biomes": {
-    "type": "neoforge:any"
-  },
+  "biomes": "syndred:soulshire_forest",
   "features": "syndred:soulshire_tree",
   "step": "vegetal_decoration"
 }

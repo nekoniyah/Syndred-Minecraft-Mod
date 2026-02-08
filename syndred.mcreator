@@ -1207,9 +1207,9 @@
       "metadata": {
         "has_nbt_structure": true,
         "files": [
-          "src/main/resources/data/syndred/worldgen/placed_feature/soulshire_tree.json",
           "src/main/resources/data/syndred/neoforge/biome_modifier/soulshire_tree_biome_modifier.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/soulshire_tree.json"
+          "src/main/resources/data/syndred/worldgen/configured_feature/soulshire_tree.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/soulshire_tree.json"
         ]
       },
       "path": "~/FeaturesAndStructures"
@@ -1450,6 +1450,8 @@
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/syndred/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModBiomes.java",
       "src/main/java/net/mcreator/syndred/world/features/configurations/StructureFeatureConfiguration.java",
       "src/main/java/net/mcreator/syndred/world/features/StructureFeature.java",
       "src/main/java/net/mcreator/syndred/network/MenuStateUpdateMessage.java",
@@ -1611,6 +1613,18 @@
       },
       {
         "name": "FeaturesAndStructures",
+        "children": []
+      },
+      {
+        "name": "Java",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Armors",
         "children": []
       }
     ]
