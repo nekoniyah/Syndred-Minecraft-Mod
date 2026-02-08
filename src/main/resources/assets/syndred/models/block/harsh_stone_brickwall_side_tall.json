@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "syndred:block/harsh_rock_bricks",
+    "particle": "syndred:block/harsh_rock_bricks"
+  },
+  "render_type": "solid"
+}

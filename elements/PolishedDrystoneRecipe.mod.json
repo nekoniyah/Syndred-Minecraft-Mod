@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "drystone_polished",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:DryStone"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DryStone"
+      },
+      {
+        "value": "CUSTOM:DryStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DryStone"
+      },
+      {
+        "value": "CUSTOM:DryStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DryStonePolished"
+    },
+    "name": "polished_drystone_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "syndred:dry_stonebricks",
+  "result": {
+    "id": "syndred:dry_stonebricks_stairs",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "syndred:dry_stone_slab",
+  "step": "underground_ores"
+}

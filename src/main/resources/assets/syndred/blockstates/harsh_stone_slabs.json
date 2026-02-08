@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "syndred:block/harsh_stone_slabs"
+    },
+    "type=top": {
+      "model": "syndred:block/harsh_stone_slabs_top"
+    },
+    "type=double": {
+      "model": "syndred:block/harsh_stone_slabs_full"
+    }
+  }
+}

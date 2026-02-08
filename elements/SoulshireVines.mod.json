@@ -135,6 +135,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "SoulshireVinesOnNeighborBlockUpdate"
+    },
     "onTickUpdate": {
       "name": "SoulshireVinesOnTickUpdate"
     },

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "syndred:block/large_dry_stone_bricks",
+    "particle": "syndred:block/large_dry_stone_bricks"
+  },
+  "render_type": "solid"
+}

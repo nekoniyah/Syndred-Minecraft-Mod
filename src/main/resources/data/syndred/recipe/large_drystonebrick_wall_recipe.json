@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "drystone_largebrick_walls",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "syndred:large_dry_stonebricks"
+  },
+  "result": {
+    "id": "syndred:large_dry_stonebrick_wall",
+    "count": 6
+  }
+}

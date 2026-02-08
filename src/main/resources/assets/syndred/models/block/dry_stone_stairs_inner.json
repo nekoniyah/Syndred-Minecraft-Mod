@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "syndred:block/dry_stone",
+    "bottom": "syndred:block/dry_stone",
+    "top": "syndred:block/dry_stone",
+    "side": "syndred:block/dry_stone"
+  },
+  "render_type": "solid"
+}

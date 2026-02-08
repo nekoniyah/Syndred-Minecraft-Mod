@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "syndred:dry_stonebricks"
+  },
+  "result": {
+    "id": "syndred:dry_stonebricks_stairs",
+    "count": 4
+  }
+}

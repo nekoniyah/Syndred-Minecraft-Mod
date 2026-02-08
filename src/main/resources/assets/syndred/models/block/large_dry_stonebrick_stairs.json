@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "syndred:block/large_dry_stone_bricks",
+    "bottom": "syndred:block/large_dry_stone_bricks",
+    "top": "syndred:block/large_dry_stone_bricks",
+    "side": "syndred:block/large_dry_stone_bricks"
+  },
+  "render_type": "solid"
+}

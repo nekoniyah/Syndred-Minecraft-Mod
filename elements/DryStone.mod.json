@@ -51,7 +51,14 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SyndredTab"
+      },
+      {
+        "value": "DECORATIONS"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -146,9 +153,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 6,
+    "frequencyPerChunks": 5,
     "frequencyOnChunk": 32,
-    "minGenerateHeight": 60,
-    "maxGenerateHeight": 120
+    "minGenerateHeight": -12,
+    "maxGenerateHeight": 42
   }
 }

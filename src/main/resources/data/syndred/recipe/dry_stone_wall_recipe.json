@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "drystone_walls",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "syndred:dry_stone"
+  },
+  "result": {
+    "id": "syndred:dry_stone_wall",
+    "count": 6
+  }
+}

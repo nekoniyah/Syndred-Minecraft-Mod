@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "syndred:block/smooth_dry_stone",
+    "bottom": "syndred:block/smooth_dry_stone",
+    "top": "syndred:block/smooth_dry_stone",
+    "side": "syndred:block/smooth_dry_stone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "syndred:block/harsh_rock_bricks",
+    "up": "syndred:block/harsh_rock_bricks",
+    "north": "syndred:block/chiseled_harsh_stone",
+    "east": "syndred:block/chiseled_harsh_stone",
+    "south": "syndred:block/chiseled_harsh_stone",
+    "west": "syndred:block/chiseled_harsh_stone",
+    "particle": "syndred:block/harsh_rock_bricks"
+  },
+  "render_type": "solid"
+}

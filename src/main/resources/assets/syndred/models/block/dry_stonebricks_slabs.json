@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "syndred:block/dry_stone_bricks",
+    "bottom": "syndred:block/dry_stone_bricks",
+    "top": "syndred:block/dry_stone_bricks",
+    "side": "syndred:block/dry_stone_bricks"
+  },
+  "render_type": "solid"
+}

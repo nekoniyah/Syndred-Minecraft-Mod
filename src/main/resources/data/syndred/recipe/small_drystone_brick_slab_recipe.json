@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "drystone_smallbrick_slabs",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "syndred:small_dry_stonebricks"
+  },
+  "result": {
+    "id": "syndred:small_dry_stonebrick_slab",
+    "count": 6
+  }
+}

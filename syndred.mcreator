@@ -18,9 +18,9 @@
       "registry_name": "raw_soulsteel",
       "metadata": {
         "files": [
+          "src/main/resources/assets/syndred/models/item/raw_soulsteel.json",
           "src/main/java/net/mcreator/syndred/item/RawSoulsteelItem.java",
-          "src/main/resources/assets/syndred/items/raw_soulsteel.json",
-          "src/main/resources/assets/syndred/models/item/raw_soulsteel.json"
+          "src/main/resources/assets/syndred/items/raw_soulsteel.json"
         ]
       },
       "path": "~/Ores/Soulsteel"
@@ -33,13 +33,13 @@
       "registry_name": "anima_conflux",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/blockstates/anima_conflux.json",
-          "src/main/resources/assets/syndred/items/anima_conflux.json",
-          "src/main/resources/assets/syndred/models/block/anima_conflux.json",
           "src/main/java/net/mcreator/syndred/block/AnimaConfluxBlock.java",
+          "src/main/resources/assets/syndred/items/anima_conflux.json",
+          "src/main/resources/assets/syndred/blockstates/anima_conflux.json",
           "src/main/resources/assets/syndred/models/item/anima_conflux.json",
-          "src/main/java/net/mcreator/syndred/block/entity/AnimaConfluxBlockEntity.java",
-          "src/main/resources/data/syndred/loot_table/blocks/anima_conflux.json"
+          "src/main/resources/data/syndred/loot_table/blocks/anima_conflux.json",
+          "src/main/resources/assets/syndred/models/block/anima_conflux.json",
+          "src/main/java/net/mcreator/syndred/block/entity/AnimaConfluxBlockEntity.java"
         ]
       },
       "path": "~/Blocks/Functional/Anima Conflux"
@@ -52,15 +52,15 @@
       "registry_name": "deepslate_sphalerite_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/syndred/block/DeepslateSphaleriteOreBlock.java",
-          "src/main/resources/assets/syndred/items/deepslate_sphalerite_ore.json",
           "src/main/resources/data/syndred/loot_table/blocks/deepslate_sphalerite_ore.json",
-          "src/main/resources/assets/syndred/models/item/deepslate_sphalerite_ore.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/deepslate_sphalerite_ore_biome_modifier.json",
           "src/main/resources/data/syndred/worldgen/placed_feature/deepslate_sphalerite_ore.json",
-          "src/main/resources/assets/syndred/models/block/deepslate_sphalerite_ore.json",
           "src/main/resources/data/syndred/worldgen/configured_feature/deepslate_sphalerite_ore.json",
-          "src/main/resources/assets/syndred/blockstates/deepslate_sphalerite_ore.json"
+          "src/main/resources/assets/syndred/items/deepslate_sphalerite_ore.json",
+          "src/main/java/net/mcreator/syndred/block/DeepslateSphaleriteOreBlock.java",
+          "src/main/resources/assets/syndred/models/item/deepslate_sphalerite_ore.json",
+          "src/main/resources/assets/syndred/models/block/deepslate_sphalerite_ore.json",
+          "src/main/resources/assets/syndred/blockstates/deepslate_sphalerite_ore.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/deepslate_sphalerite_ore_biome_modifier.json"
         ]
       },
       "path": "~/Ores/Sphalerite"
@@ -73,15 +73,15 @@
       "registry_name": "sphalerite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/items/sphalerite_ore.json",
           "src/main/resources/data/syndred/loot_table/blocks/sphalerite_ore.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/sphalerite_ore_biome_modifier.json",
+          "src/main/resources/assets/syndred/blockstates/sphalerite_ore.json",
           "src/main/java/net/mcreator/syndred/block/SphaleriteOreBlock.java",
           "src/main/resources/assets/syndred/models/item/sphalerite_ore.json",
-          "src/main/resources/assets/syndred/blockstates/sphalerite_ore.json",
+          "src/main/resources/assets/syndred/items/sphalerite_ore.json",
           "src/main/resources/data/syndred/worldgen/configured_feature/sphalerite_ore.json",
+          "src/main/resources/assets/syndred/models/block/sphalerite_ore.json",
           "src/main/resources/data/syndred/worldgen/placed_feature/sphalerite_ore.json",
-          "src/main/resources/assets/syndred/models/block/sphalerite_ore.json"
+          "src/main/resources/data/syndred/neoforge/biome_modifier/sphalerite_ore_biome_modifier.json"
         ]
       },
       "path": "~/Ores/Sphalerite"
@@ -95,8 +95,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/syndred/items/raw_sphalerite.json",
-          "src/main/resources/assets/syndred/models/item/raw_sphalerite.json",
-          "src/main/java/net/mcreator/syndred/item/RawSphaleriteItem.java"
+          "src/main/java/net/mcreator/syndred/item/RawSphaleriteItem.java",
+          "src/main/resources/assets/syndred/models/item/raw_sphalerite.json"
         ]
       },
       "path": "~/Ores/Sphalerite"
@@ -109,8 +109,8 @@
       "registry_name": "sunder_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/syndred/world/inventory/SunderGUIMenu.java",
-          "src/main/java/net/mcreator/syndred/client/gui/SunderGUIScreen.java"
+          "src/main/java/net/mcreator/syndred/client/gui/SunderGUIScreen.java",
+          "src/main/java/net/mcreator/syndred/world/inventory/SunderGUIMenu.java"
         ]
       },
       "path": "~/GUIs"
@@ -123,9 +123,9 @@
       "registry_name": "soulsteel_ingot",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/syndred/item/SoulsteelIngotItem.java",
           "src/main/resources/assets/syndred/items/soulsteel_ingot.json",
-          "src/main/resources/assets/syndred/models/item/soulsteel_ingot.json",
-          "src/main/java/net/mcreator/syndred/item/SoulsteelIngotItem.java"
+          "src/main/resources/assets/syndred/models/item/soulsteel_ingot.json"
         ]
       },
       "path": "~/Ores/Soulsteel"
@@ -261,15 +261,15 @@
       "registry_name": "raw_soulsteel_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/items/raw_soulsteel_block.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/raw_soulsteel_block_biome_modifier.json",
-          "src/main/resources/assets/syndred/models/block/raw_soulsteel_block.json",
-          "src/main/resources/assets/syndred/models/item/raw_soulsteel_block.json",
-          "src/main/resources/data/syndred/worldgen/placed_feature/raw_soulsteel_block.json",
-          "src/main/resources/data/syndred/loot_table/blocks/raw_soulsteel_block.json",
-          "src/main/resources/assets/syndred/blockstates/raw_soulsteel_block.json",
           "src/main/resources/data/syndred/worldgen/configured_feature/raw_soulsteel_block.json",
-          "src/main/java/net/mcreator/syndred/block/RawSoulsteelBlockBlock.java"
+          "src/main/resources/assets/syndred/blockstates/raw_soulsteel_block.json",
+          "src/main/resources/assets/syndred/items/raw_soulsteel_block.json",
+          "src/main/resources/assets/syndred/models/block/raw_soulsteel_block.json",
+          "src/main/java/net/mcreator/syndred/block/RawSoulsteelBlockBlock.java",
+          "src/main/resources/data/syndred/worldgen/placed_feature/raw_soulsteel_block.json",
+          "src/main/resources/assets/syndred/models/item/raw_soulsteel_block.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/raw_soulsteel_block_biome_modifier.json",
+          "src/main/resources/data/syndred/loot_table/blocks/raw_soulsteel_block.json"
         ]
       },
       "path": "~/Ores/Soulsteel"
@@ -282,15 +282,15 @@
       "registry_name": "raw_sphalerite_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/syndred/worldgen/placed_feature/raw_sphalerite_block.json",
-          "src/main/java/net/mcreator/syndred/block/RawSphaleriteBlockBlock.java",
-          "src/main/resources/data/syndred/worldgen/configured_feature/raw_sphalerite_block.json",
-          "src/main/resources/assets/syndred/items/raw_sphalerite_block.json",
-          "src/main/resources/assets/syndred/models/item/raw_sphalerite_block.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/raw_sphalerite_block_biome_modifier.json",
           "src/main/resources/data/syndred/loot_table/blocks/raw_sphalerite_block.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/raw_sphalerite_block_biome_modifier.json",
+          "src/main/java/net/mcreator/syndred/block/RawSphaleriteBlockBlock.java",
+          "src/main/resources/assets/syndred/items/raw_sphalerite_block.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/raw_sphalerite_block.json",
+          "src/main/resources/assets/syndred/models/item/raw_sphalerite_block.json",
           "src/main/resources/assets/syndred/models/block/raw_sphalerite_block.json",
-          "src/main/resources/assets/syndred/blockstates/raw_sphalerite_block.json"
+          "src/main/resources/assets/syndred/blockstates/raw_sphalerite_block.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/raw_sphalerite_block.json"
         ]
       },
       "path": "~/Ores/Sphalerite"
@@ -303,15 +303,15 @@
       "registry_name": "soulsteel_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/syndred/neoforge/biome_modifier/soulsteel_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/syndred/block/SoulsteelOreBlock.java",
           "src/main/resources/data/syndred/worldgen/placed_feature/soulsteel_ore.json",
+          "src/main/resources/assets/syndred/models/block/soulsteel_ore.json",
           "src/main/resources/data/syndred/loot_table/blocks/soulsteel_ore.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/soulsteel_ore_biome_modifier.json",
           "src/main/resources/assets/syndred/blockstates/soulsteel_ore.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/soulsteel_ore.json",
           "src/main/resources/assets/syndred/items/soulsteel_ore.json",
-          "src/main/resources/assets/syndred/models/item/soulsteel_ore.json",
-          "src/main/resources/assets/syndred/models/block/soulsteel_ore.json"
+          "src/main/java/net/mcreator/syndred/block/SoulsteelOreBlock.java",
+          "src/main/resources/data/syndred/worldgen/configured_feature/soulsteel_ore.json",
+          "src/main/resources/assets/syndred/models/item/soulsteel_ore.json"
         ]
       },
       "path": "~/Ores/Soulsteel"
@@ -324,15 +324,15 @@
       "registry_name": "deepslate_soulsteel_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/blockstates/deepslate_soulsteel_ore.json",
-          "src/main/resources/data/syndred/worldgen/placed_feature/deepslate_soulsteel_ore.json",
-          "src/main/resources/assets/syndred/models/block/deepslate_soulsteel_ore.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/deepslate_soulsteel_ore_biome_modifier.json",
           "src/main/java/net/mcreator/syndred/block/DeepslateSoulsteelOreBlock.java",
           "src/main/resources/data/syndred/loot_table/blocks/deepslate_soulsteel_ore.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/deepslate_soulsteel_ore.json",
+          "src/main/resources/assets/syndred/models/block/deepslate_soulsteel_ore.json",
+          "src/main/resources/assets/syndred/models/item/deepslate_soulsteel_ore.json",
+          "src/main/resources/assets/syndred/blockstates/deepslate_soulsteel_ore.json",
           "src/main/resources/assets/syndred/items/deepslate_soulsteel_ore.json",
-          "src/main/resources/assets/syndred/models/item/deepslate_soulsteel_ore.json"
+          "src/main/resources/data/syndred/neoforge/biome_modifier/deepslate_soulsteel_ore_biome_modifier.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/deepslate_soulsteel_ore.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/deepslate_soulsteel_ore.json"
         ]
       },
       "path": "~/Ores/Soulsteel"
@@ -345,9 +345,9 @@
       "registry_name": "echo_dust",
       "metadata": {
         "files": [
+          "src/main/resources/assets/syndred/models/item/echo_dust.json",
           "src/main/java/net/mcreator/syndred/item/EchoDustItem.java",
-          "src/main/resources/assets/syndred/items/echo_dust.json",
-          "src/main/resources/assets/syndred/models/item/echo_dust.json"
+          "src/main/resources/assets/syndred/items/echo_dust.json"
         ]
       },
       "path": "~/Items/Symbols"
@@ -360,8 +360,8 @@
       "registry_name": "soulsteel_shard",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/syndred/item/SoulsteelShardItem.java",
           "src/main/resources/assets/syndred/items/soulsteel_shard.json",
+          "src/main/java/net/mcreator/syndred/item/SoulsteelShardItem.java",
           "src/main/resources/assets/syndred/models/item/soulsteel_shard.json"
         ]
       },
@@ -389,9 +389,9 @@
       "registry_name": "soulsteel_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/items/soulsteel_sword.json",
+          "src/main/java/net/mcreator/syndred/item/SoulsteelSwordItem.java",
           "src/main/resources/assets/syndred/models/item/soulsteel_sword.json",
-          "src/main/java/net/mcreator/syndred/item/SoulsteelSwordItem.java"
+          "src/main/resources/assets/syndred/items/soulsteel_sword.json"
         ]
       },
       "path": "~/Items/Weapons"
@@ -404,8 +404,8 @@
       "registry_name": "soulsteel_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/items/soulsteel_pickaxe.json",
           "src/main/java/net/mcreator/syndred/item/SoulsteelPickaxeItem.java",
+          "src/main/resources/assets/syndred/items/soulsteel_pickaxe.json",
           "src/main/resources/assets/syndred/models/item/soulsteel_pickaxe.json"
         ]
       },
@@ -419,9 +419,9 @@
       "registry_name": "soulsteel_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/syndred/item/SoulsteelAxeItem.java",
           "src/main/resources/assets/syndred/models/item/soulsteel_axe.json",
-          "src/main/resources/assets/syndred/items/soulsteel_axe.json"
+          "src/main/resources/assets/syndred/items/soulsteel_axe.json",
+          "src/main/java/net/mcreator/syndred/item/SoulsteelAxeItem.java"
         ]
       },
       "path": "~/Items/Tools"
@@ -434,8 +434,8 @@
       "registry_name": "soulsteel_spade",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/items/soulsteel_spade.json",
           "src/main/java/net/mcreator/syndred/item/SoulsteelSpadeItem.java",
+          "src/main/resources/assets/syndred/items/soulsteel_spade.json",
           "src/main/resources/assets/syndred/models/item/soulsteel_spade.json"
         ]
       },
@@ -464,18 +464,18 @@
       "registry_name": "dry_stone",
       "metadata": {
         "files": [
+          "src/main/resources/assets/syndred/models/item/dry_stone.json",
+          "src/main/resources/assets/syndred/blockstates/dry_stone.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/dry_stone.json",
           "src/main/resources/data/syndred/worldgen/placed_feature/dry_stone.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/dry_stone_biome_modifier.json",
           "src/main/resources/data/syndred/loot_table/blocks/dry_stone.json",
           "src/main/resources/assets/syndred/models/block/dry_stone.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/dry_stone_biome_modifier.json",
           "src/main/java/net/mcreator/syndred/block/DryStoneBlock.java",
-          "src/main/resources/assets/syndred/models/item/dry_stone.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/dry_stone.json",
-          "src/main/resources/assets/syndred/blockstates/dry_stone.json",
           "src/main/resources/assets/syndred/items/dry_stone.json"
         ]
       },
-      "path": "~/Blocks/Generated"
+      "path": "~/Blocks/Generated/DryStoneNatural"
     },
     {
       "name": "HarshStone",
@@ -485,18 +485,18 @@
       "registry_name": "harsh_stone",
       "metadata": {
         "files": [
-          "src/main/resources/data/syndred/worldgen/placed_feature/harsh_stone.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/harsh_stone_biome_modifier.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone.json",
           "src/main/resources/data/syndred/worldgen/configured_feature/harsh_stone.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/harsh_stone.json",
           "src/main/resources/assets/syndred/items/harsh_stone.json",
           "src/main/java/net/mcreator/syndred/block/HarshStoneBlock.java",
-          "src/main/resources/assets/syndred/blockstates/harsh_stone.json",
           "src/main/resources/data/syndred/loot_table/blocks/harsh_stone.json",
-          "src/main/resources/assets/syndred/models/item/harsh_stone.json",
-          "src/main/resources/assets/syndred/models/block/harsh_stone.json"
+          "src/main/resources/assets/syndred/models/block/harsh_stone.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/harsh_stone_biome_modifier.json",
+          "src/main/resources/assets/syndred/models/item/harsh_stone.json"
         ]
       },
-      "path": "~/Blocks/Generated"
+      "path": "~/Blocks/Generated/HarshStoneNatural"
     },
     {
       "name": "SoulsteelBlock",
@@ -508,8 +508,8 @@
         "files": [
           "src/main/resources/assets/syndred/models/item/soulsteel_block.json",
           "src/main/resources/assets/syndred/models/block/soulsteel_block.json",
-          "src/main/resources/assets/syndred/items/soulsteel_block.json",
           "src/main/resources/assets/syndred/blockstates/soulsteel_block.json",
+          "src/main/resources/assets/syndred/items/soulsteel_block.json",
           "src/main/java/net/mcreator/syndred/block/SoulsteelBlockBlock.java",
           "src/main/resources/data/syndred/loot_table/blocks/soulsteel_block.json"
         ]
@@ -553,9 +553,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/syndred/loot_table/blocks/sphalerite_block.json",
-          "src/main/java/net/mcreator/syndred/block/SphaleriteBlockBlock.java",
-          "src/main/resources/assets/syndred/items/sphalerite_block.json",
           "src/main/resources/assets/syndred/models/item/sphalerite_block.json",
+          "src/main/resources/assets/syndred/items/sphalerite_block.json",
+          "src/main/java/net/mcreator/syndred/block/SphaleriteBlockBlock.java",
           "src/main/resources/assets/syndred/blockstates/sphalerite_block.json",
           "src/main/resources/assets/syndred/models/block/sphalerite_block.json"
         ]
@@ -640,11 +640,11 @@
       "registry_name": "charger",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/models/item/charger_spawn_egg.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/charger_biome_modifier.json",
           "src/main/java/net/mcreator/syndred/entity/ChargerEntity.java",
           "src/main/resources/assets/syndred/items/charger_spawn_egg.json",
-          "src/main/java/net/mcreator/syndred/client/renderer/ChargerRenderer.java"
+          "src/main/java/net/mcreator/syndred/client/renderer/ChargerRenderer.java",
+          "src/main/resources/assets/syndred/models/item/charger_spawn_egg.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/charger_biome_modifier.json"
         ]
       },
       "path": "~/Entities"
@@ -658,9 +658,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/syndred/item/HornLanceItem.java",
-          "src/main/resources/assets/syndred/models/item/horn_lance_gui.json",
           "src/main/resources/assets/syndred/items/horn_lance.json",
-          "src/main/resources/assets/syndred/models/item/horn_lance.json"
+          "src/main/resources/assets/syndred/models/item/horn_lance.json",
+          "src/main/resources/assets/syndred/models/item/horn_lance_gui.json"
         ]
       },
       "path": "~/Items/Weapons"
@@ -864,13 +864,13 @@
       "registry_name": "egg_incubator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/blockstates/egg_incubator.json",
-          "src/main/resources/assets/syndred/models/block/egg_incubator.json",
-          "src/main/resources/assets/syndred/models/item/egg_incubator.json",
-          "src/main/resources/assets/syndred/items/egg_incubator.json",
           "src/main/java/net/mcreator/syndred/block/entity/EggIncubatorBlockEntity.java",
+          "src/main/resources/assets/syndred/models/item/egg_incubator.json",
+          "src/main/resources/assets/syndred/models/block/egg_incubator.json",
+          "src/main/java/net/mcreator/syndred/block/EggIncubatorBlock.java",
+          "src/main/resources/assets/syndred/blockstates/egg_incubator.json",
           "src/main/resources/data/syndred/loot_table/blocks/egg_incubator.json",
-          "src/main/java/net/mcreator/syndred/block/EggIncubatorBlock.java"
+          "src/main/resources/assets/syndred/items/egg_incubator.json"
         ]
       },
       "path": "~/Blocks/Functional/Egg Incubator"
@@ -1213,12 +1213,1196 @@
         ]
       },
       "path": "~/FeaturesAndStructures"
+    },
+    {
+      "name": "DryStonebricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stonebricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/loot_table/blocks/dry_stonebricks.json",
+          "src/main/resources/assets/syndred/models/block/dry_stonebricks.json",
+          "src/main/java/net/mcreator/syndred/block/DryStonebricksBlock.java",
+          "src/main/resources/assets/syndred/models/item/dry_stonebricks.json",
+          "src/main/resources/assets/syndred/items/dry_stonebricks.json",
+          "src/main/resources/assets/syndred/blockstates/dry_stonebricks.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/DryStoneBricks"
+    },
+    {
+      "name": "HarshStoneBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_bricks.json",
+          "src/main/resources/assets/syndred/models/item/harsh_stone_bricks.json",
+          "src/main/java/net/mcreator/syndred/block/HarshStoneBricksBlock.java",
+          "src/main/resources/assets/syndred/items/harsh_stone_bricks.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_bricks.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone_bricks.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/HarshStoneBricks"
+    },
+    {
+      "name": "HarshStonePolished",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone_polished",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/block/HarshStonePolishedBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_polished.json",
+          "src/main/resources/assets/syndred/items/harsh_stone_polished.json",
+          "src/main/resources/assets/syndred/models/item/harsh_stone_polished.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone_polished.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_polished.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/PolishedHarshStone"
+    },
+    {
+      "name": "DryStonePolished",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_polished",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/dry_stone_polished.json",
+          "src/main/resources/assets/syndred/blockstates/dry_stone_polished.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_polished.json",
+          "src/main/resources/assets/syndred/models/item/dry_stone_polished.json",
+          "src/main/java/net/mcreator/syndred/block/DryStonePolishedBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/dry_stone_polished.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/PolishedDryStone"
+    },
+    {
+      "name": "SoulshireVinesOnNeighborBlockUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_vines_on_neighbor_block_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/syndred/procedures/SoulshireVinesOnNeighborBlockUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SmallDryStonebricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_dry_stonebricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/block/SmallDryStonebricksBlock.java",
+          "src/main/resources/assets/syndred/models/item/small_dry_stonebricks.json",
+          "src/main/resources/data/syndred/loot_table/blocks/small_dry_stonebricks.json",
+          "src/main/resources/assets/syndred/items/small_dry_stonebricks.json",
+          "src/main/resources/assets/syndred/blockstates/small_dry_stonebricks.json",
+          "src/main/resources/assets/syndred/models/block/small_dry_stonebricks.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/SmallDryStoneBricks"
+    },
+    {
+      "name": "LargeDryStonebricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_dry_stonebricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/large_dry_stonebricks.json",
+          "src/main/resources/assets/syndred/items/large_dry_stonebricks.json",
+          "src/main/resources/data/syndred/loot_table/blocks/large_dry_stonebricks.json",
+          "src/main/java/net/mcreator/syndred/block/LargeDryStonebricksBlock.java",
+          "src/main/resources/assets/syndred/blockstates/large_dry_stonebricks.json",
+          "src/main/resources/assets/syndred/models/block/large_dry_stonebricks.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/LargeDryStonebricks"
+    },
+    {
+      "name": "HarshStoneChiseled",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone_chiseled",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/block/HarshStoneChiseledBlock.java",
+          "src/main/resources/assets/syndred/models/item/harsh_stone_chiseled.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_chiseled.json",
+          "src/main/resources/assets/syndred/items/harsh_stone_chiseled.json",
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_chiseled.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone_chiseled.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/ChiseledHarshStone"
+    },
+    {
+      "name": "DryStoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/neoforge/biome_modifier/dry_stone_stairs_biome_modifier.json",
+          "src/main/resources/assets/syndred/items/dry_stone_stairs.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/dry_stone_stairs.json",
+          "src/main/resources/data/syndred/loot_table/blocks/dry_stone_stairs.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_stairs_inner.json",
+          "src/main/resources/assets/syndred/blockstates/dry_stone_stairs.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_stairs.json",
+          "src/main/resources/assets/syndred/models/item/dry_stone_stairs.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_stairs_outer.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/dry_stone_stairs.json",
+          "src/main/java/net/mcreator/syndred/block/DryStoneStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Generated/DryStoneNatural"
+    },
+    {
+      "name": "DryStoneWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/neoforge/biome_modifier/dry_stone_wall_biome_modifier.json",
+          "src/main/resources/assets/syndred/blockstates/dry_stone_wall.json",
+          "src/main/resources/data/syndred/loot_table/blocks/dry_stone_wall.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/dry_stone_wall.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/dry_stone_wall.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_wall.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_wall_inventory.json",
+          "src/main/resources/assets/syndred/items/dry_stone_wall.json",
+          "src/main/java/net/mcreator/syndred/block/DryStoneWallBlock.java",
+          "src/main/resources/assets/syndred/models/block/dry_stone_wall_post.json",
+          "src/main/resources/assets/syndred/models/item/dry_stone_wall.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_wall_side_tall.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/DryStoneNatural"
+    },
+    {
+      "name": "DryStoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/worldgen/configured_feature/dry_stone_slab.json",
+          "src/main/java/net/mcreator/syndred/block/DryStoneSlabBlock.java",
+          "src/main/resources/assets/syndred/models/block/dry_stone_slab.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/dry_stone_slab.json",
+          "src/main/resources/assets/syndred/models/item/dry_stone_slab.json",
+          "src/main/resources/assets/syndred/blockstates/dry_stone_slab.json",
+          "src/main/resources/data/syndred/loot_table/blocks/dry_stone_slab.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/dry_stone_slab_biome_modifier.json",
+          "src/main/resources/assets/syndred/items/dry_stone_slab.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_slab_top.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/DryStoneNatural"
+    },
+    {
+      "name": "HarshStoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/neoforge/biome_modifier/harsh_stone_stairs_biome_modifier.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/harsh_stone_stairs.json",
+          "src/main/resources/assets/syndred/items/harsh_stone_stairs.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_stairs_inner.json",
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_stairs.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_stairs.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone_stairs.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_stairs_outer.json",
+          "src/main/java/net/mcreator/syndred/block/HarshStoneStairsBlock.java",
+          "src/main/resources/data/syndred/worldgen/configured_feature/harsh_stone_stairs.json",
+          "src/main/resources/assets/syndred/models/item/harsh_stone_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/HarshStoneNatural"
+    },
+    {
+      "name": "HarshStoneSlabs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone_slabs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/block/HarshStoneSlabsBlock.java",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_slabs.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/harsh_stone_slabs_biome_modifier.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone_slabs.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_slabs_full.json",
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_slabs.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_slabs_top.json",
+          "src/main/resources/assets/syndred/items/harsh_stone_slabs.json",
+          "src/main/resources/assets/syndred/models/item/harsh_stone_slabs.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/harsh_stone_slabs.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/harsh_stone_slabs.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/HarshStoneNatural"
+    },
+    {
+      "name": "HarshStoneWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/harsh_stone_wall.json",
+          "src/main/resources/assets/syndred/models/item/harsh_stone_wall.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone_wall.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_wall.json",
+          "src/main/java/net/mcreator/syndred/block/HarshStoneWallBlock.java",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/harsh_stone_wall_biome_modifier.json",
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_wall.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/harsh_stone_wall.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_wall_side_tall.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_wall_inventory.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/harsh_stone_wall.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_wall_post.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/HarshStoneNatural"
+    },
+    {
+      "name": "DryStonebricksStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stonebricks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/block/dry_stonebricks_stairs_inner.json",
+          "src/main/resources/assets/syndred/blockstates/dry_stonebricks_stairs.json",
+          "src/main/resources/assets/syndred/items/dry_stonebricks_stairs.json",
+          "src/main/resources/assets/syndred/models/block/dry_stonebricks_stairs.json",
+          "src/main/java/net/mcreator/syndred/block/DryStonebricksStairsBlock.java",
+          "src/main/resources/assets/syndred/models/item/dry_stonebricks_stairs.json",
+          "src/main/resources/data/syndred/loot_table/blocks/dry_stonebricks_stairs.json",
+          "src/main/resources/assets/syndred/models/block/dry_stonebricks_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/DryStoneBricks"
+    },
+    {
+      "name": "DryStonebricksSlabs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stonebricks_slabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/blockstates/dry_stonebricks_slabs.json",
+          "src/main/resources/assets/syndred/models/block/dry_stonebricks_slabs.json",
+          "src/main/java/net/mcreator/syndred/block/DryStonebricksSlabsBlock.java",
+          "src/main/resources/assets/syndred/items/dry_stonebricks_slabs.json",
+          "src/main/resources/assets/syndred/models/item/dry_stonebricks_slabs.json",
+          "src/main/resources/data/syndred/loot_table/blocks/dry_stonebricks_slabs.json",
+          "src/main/resources/assets/syndred/models/block/dry_stonebricks_slabs_full.json",
+          "src/main/resources/assets/syndred/models/block/dry_stonebricks_slabs_top.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/DryStoneBricks"
+    },
+    {
+      "name": "DryStonebricksWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stonebricks_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/block/DryStonebricksWallBlock.java",
+          "src/main/resources/assets/syndred/models/item/dry_stonebricks_wall.json",
+          "src/main/resources/assets/syndred/models/block/dry_stonebricks_wall_side_tall.json",
+          "src/main/resources/assets/syndred/items/dry_stonebricks_wall.json",
+          "src/main/resources/assets/syndred/models/block/dry_stonebricks_wall_post.json",
+          "src/main/resources/assets/syndred/models/block/dry_stonebricks_wall_inventory.json",
+          "src/main/resources/data/syndred/loot_table/blocks/dry_stonebricks_wall.json",
+          "src/main/resources/assets/syndred/blockstates/dry_stonebricks_wall.json",
+          "src/main/resources/assets/syndred/models/block/dry_stonebricks_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/DryStoneBricks"
+    },
+    {
+      "name": "DryStonePolishedStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_polished_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/block/dry_stone_polished_stairs_inner.json",
+          "src/main/java/net/mcreator/syndred/block/DryStonePolishedStairsBlock.java",
+          "src/main/resources/assets/syndred/items/dry_stone_polished_stairs.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_polished_stairs.json",
+          "src/main/resources/assets/syndred/blockstates/dry_stone_polished_stairs.json",
+          "src/main/resources/assets/syndred/models/item/dry_stone_polished_stairs.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_polished_stairs_outer.json",
+          "src/main/resources/data/syndred/loot_table/blocks/dry_stone_polished_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/PolishedDryStone"
+    },
+    {
+      "name": "DryStonePolishedSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_polished_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/loot_table/blocks/dry_stone_polished_slab.json",
+          "src/main/resources/assets/syndred/items/dry_stone_polished_slab.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_polished_slab_full.json",
+          "src/main/java/net/mcreator/syndred/block/DryStonePolishedSlabBlock.java",
+          "src/main/resources/assets/syndred/models/item/dry_stone_polished_slab.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_polished_slab_top.json",
+          "src/main/resources/assets/syndred/blockstates/dry_stone_polished_slab.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_polished_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/PolishedDryStone"
+    },
+    {
+      "name": "DryStonePolishedwall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_polishedwall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/block/dry_stone_polishedwall_side_tall.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_polishedwall.json",
+          "src/main/resources/assets/syndred/models/item/dry_stone_polishedwall.json",
+          "src/main/java/net/mcreator/syndred/block/DryStonePolishedwallBlock.java",
+          "src/main/resources/assets/syndred/blockstates/dry_stone_polishedwall.json",
+          "src/main/resources/assets/syndred/items/dry_stone_polishedwall.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_polishedwall_post.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone_polishedwall_inventory.json",
+          "src/main/resources/data/syndred/loot_table/blocks/dry_stone_polishedwall.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/PolishedDryStone"
+    },
+    {
+      "name": "SmallDryStonebrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_dry_stonebrick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/block/small_dry_stonebrick_stairs.json",
+          "src/main/resources/data/syndred/loot_table/blocks/small_dry_stonebrick_stairs.json",
+          "src/main/resources/assets/syndred/blockstates/small_dry_stonebrick_stairs.json",
+          "src/main/resources/assets/syndred/models/block/small_dry_stonebrick_stairs_outer.json",
+          "src/main/resources/assets/syndred/models/block/small_dry_stonebrick_stairs_inner.json",
+          "src/main/java/net/mcreator/syndred/block/SmallDryStonebrickStairsBlock.java",
+          "src/main/resources/assets/syndred/items/small_dry_stonebrick_stairs.json",
+          "src/main/resources/assets/syndred/models/item/small_dry_stonebrick_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/SmallDryStoneBricks"
+    },
+    {
+      "name": "SmallDryStonebrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_dry_stonebrick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/block/small_dry_stonebrick_slab.json",
+          "src/main/resources/data/syndred/loot_table/blocks/small_dry_stonebrick_slab.json",
+          "src/main/resources/assets/syndred/models/block/small_dry_stonebrick_slab_full.json",
+          "src/main/resources/assets/syndred/items/small_dry_stonebrick_slab.json",
+          "src/main/resources/assets/syndred/models/item/small_dry_stonebrick_slab.json",
+          "src/main/resources/assets/syndred/models/block/small_dry_stonebrick_slab_top.json",
+          "src/main/java/net/mcreator/syndred/block/SmallDryStonebrickSlabBlock.java",
+          "src/main/resources/assets/syndred/blockstates/small_dry_stonebrick_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/SmallDryStoneBricks"
+    },
+    {
+      "name": "SmallDryStonebrickWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_dry_stonebrick_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/block/SmallDryStonebrickWallBlock.java",
+          "src/main/resources/assets/syndred/items/small_dry_stonebrick_wall.json",
+          "src/main/resources/assets/syndred/models/item/small_dry_stonebrick_wall.json",
+          "src/main/resources/assets/syndred/blockstates/small_dry_stonebrick_wall.json",
+          "src/main/resources/assets/syndred/models/block/small_dry_stonebrick_wall_post.json",
+          "src/main/resources/assets/syndred/models/block/small_dry_stonebrick_wall.json",
+          "src/main/resources/assets/syndred/models/block/small_dry_stonebrick_wall_inventory.json",
+          "src/main/resources/assets/syndred/models/block/small_dry_stonebrick_wall_side_tall.json",
+          "src/main/resources/data/syndred/loot_table/blocks/small_dry_stonebrick_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/SmallDryStoneBricks"
+    },
+    {
+      "name": "LargeDryStonebrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_dry_stonebrick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/large_dry_stonebrick_stairs.json",
+          "src/main/resources/assets/syndred/models/block/large_dry_stonebrick_stairs_inner.json",
+          "src/main/resources/assets/syndred/blockstates/large_dry_stonebrick_stairs.json",
+          "src/main/resources/assets/syndred/models/block/large_dry_stonebrick_stairs.json",
+          "src/main/resources/assets/syndred/models/block/large_dry_stonebrick_stairs_outer.json",
+          "src/main/java/net/mcreator/syndred/block/LargeDryStonebrickStairsBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/large_dry_stonebrick_stairs.json",
+          "src/main/resources/assets/syndred/items/large_dry_stonebrick_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/LargeDryStonebricks"
+    },
+    {
+      "name": "LargeDryStonebrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_dry_stonebrick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/large_dry_stonebrick_slab.json",
+          "src/main/resources/assets/syndred/models/block/large_dry_stonebrick_slab_top.json",
+          "src/main/resources/assets/syndred/models/block/large_dry_stonebrick_slab_full.json",
+          "src/main/java/net/mcreator/syndred/block/LargeDryStonebrickSlabBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/large_dry_stonebrick_slab.json",
+          "src/main/resources/assets/syndred/items/large_dry_stonebrick_slab.json",
+          "src/main/resources/assets/syndred/models/block/large_dry_stonebrick_slab.json",
+          "src/main/resources/assets/syndred/blockstates/large_dry_stonebrick_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/LargeDryStonebricks"
+    },
+    {
+      "name": "LargeDryStonebrickWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_dry_stonebrick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/block/large_dry_stonebrick_wall.json",
+          "src/main/resources/assets/syndred/blockstates/large_dry_stonebrick_wall.json",
+          "src/main/resources/assets/syndred/items/large_dry_stonebrick_wall.json",
+          "src/main/resources/assets/syndred/models/block/large_dry_stonebrick_wall_post.json",
+          "src/main/resources/assets/syndred/models/block/large_dry_stonebrick_wall_inventory.json",
+          "src/main/java/net/mcreator/syndred/block/LargeDryStonebrickWallBlock.java",
+          "src/main/resources/assets/syndred/models/item/large_dry_stonebrick_wall.json",
+          "src/main/resources/data/syndred/loot_table/blocks/large_dry_stonebrick_wall.json",
+          "src/main/resources/assets/syndred/models/block/large_dry_stonebrick_wall_side_tall.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/LargeDryStonebricks"
+    },
+    {
+      "name": "HarshStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/harsh_stone_brick_stairs.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone_brick_stairs.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_brick_stairs.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_brick_stairs_inner.json",
+          "src/main/java/net/mcreator/syndred/block/HarshStoneBrickStairsBlock.java",
+          "src/main/resources/assets/syndred/models/item/harsh_stone_brick_stairs.json",
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/HarshStoneBricks"
+    },
+    {
+      "name": "HarshStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/block/HarshStoneBrickSlabBlock.java",
+          "src/main/resources/assets/syndred/models/item/harsh_stone_brick_slab.json",
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_brick_slab.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_brick_slab.json",
+          "src/main/resources/assets/syndred/items/harsh_stone_brick_slab.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_brick_slab_full.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone_brick_slab.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_brick_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/HarshStoneBricks"
+    },
+    {
+      "name": "HarshStoneBrickwall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone_brickwall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/harsh_stone_brickwall.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone_brickwall.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_brickwall.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_brickwall_side_tall.json",
+          "src/main/resources/assets/syndred/items/harsh_stone_brickwall.json",
+          "src/main/java/net/mcreator/syndred/block/HarshStoneBrickwallBlock.java",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_brickwall_inventory.json",
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_brickwall.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_brickwall_post.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/HarshStoneBricks"
+    },
+    {
+      "name": "HarshStonePolishedStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone_polished_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/block/HarshStonePolishedStairsBlock.java",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_polished_stairs_inner.json",
+          "src/main/resources/assets/syndred/items/harsh_stone_polished_stairs.json",
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_polished_stairs.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_polished_stairs_outer.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_polished_stairs.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone_polished_stairs.json",
+          "src/main/resources/assets/syndred/models/item/harsh_stone_polished_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/PolishedHarshStone"
+    },
+    {
+      "name": "HarshStonePolishedWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone_polished_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/harsh_stone_polished_wall.json",
+          "src/main/resources/assets/syndred/models/item/harsh_stone_polished_wall.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone_polished_wall.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_polished_wall_post.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_polished_wall_inventory.json",
+          "src/main/java/net/mcreator/syndred/block/HarshStonePolishedWallBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_polished_wall.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_polished_wall.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_polished_wall_side_tall.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/PolishedHarshStone"
+    },
+    {
+      "name": "HarshStonePolishedSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone_polished_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/block/harsh_stone_polished_slab_full.json",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone_polished_slab.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_polished_slab_top.json",
+          "src/main/java/net/mcreator/syndred/block/HarshStonePolishedSlabBlock.java",
+          "src/main/resources/assets/syndred/models/item/harsh_stone_polished_slab.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone_polished_slab.json",
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_polished_slab.json",
+          "src/main/resources/assets/syndred/items/harsh_stone_polished_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Generated/PolishedHarshStone"
+    },
+    {
+      "name": "DrystoneStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drystone_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/drystone_stairs_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/drystone_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "DryStoneSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/dry_stone_slab_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/dry_stone_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "DryStoneWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/dry_stone_wall_recipe.json",
+          "src/main/resources/data/syndred/recipe/dry_stone_wall_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "DryStoneBricksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/dry_stone_bricks_recipe.json",
+          "src/main/resources/data/syndred/recipe/dry_stone_bricks_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "DryStoneBrickStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_brick_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/dry_stone_brick_stairs_recipe.json",
+          "src/main/resources/data/syndred/recipe/dry_stone_brick_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "DryStoneBrickSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_brick_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/dry_stone_brick_slab_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/dry_stone_brick_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "DryStoneBrickWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_brick_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/dry_stone_brick_wall_recipe.json",
+          "src/main/resources/data/syndred/recipe/dry_stone_brick_wall_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "PolishedDrystoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_drystone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/polished_drystone_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/polished_drystone_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "PolishedDrystoneStairRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_drystone_stair_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/polished_drystone_stair_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/polished_drystone_stair_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "PolishedDrystoneSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_drystone_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/polished_drystone_slab_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/polished_drystone_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "PolishedDrystoneWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_drystone_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/polished_drystone_wall_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/polished_drystone_wall_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "SmallDrystoneBricksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_drystone_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/small_drystone_bricks_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/small_drystone_bricks_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "SmallDrystoneBrickStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_drystone_brick_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/small_drystone_brick_stairs_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/small_drystone_brick_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "SmallDrystoneBrickSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_drystone_brick_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/small_drystone_brick_slab_recipe.json",
+          "src/main/resources/data/syndred/recipe/small_drystone_brick_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "SmallDrystoneBrickWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_drystone_brick_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/small_drystone_brick_wall_recipe.json",
+          "src/main/resources/data/syndred/recipe/small_drystone_brick_wall_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "LargeDrystoneBrickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_drystone_brick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/large_drystone_brick_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/large_drystone_brick_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "LargeDrystoneBrickSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_drystone_brick_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/large_drystone_brick_slab_recipe.json",
+          "src/main/resources/data/syndred/recipe/large_drystone_brick_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "LargeDrystoneBrickStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_drystone_brick_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/large_drystone_brick_stairs_recipe.json",
+          "src/main/resources/data/syndred/recipe/large_drystone_brick_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "LargeDrystonebrickWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_drystonebrick_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/large_drystonebrick_wall_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/large_drystonebrick_wall_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "DrystoneSlabCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drystone_slab_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/drystone_slab_cutter_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/drystone_slab_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "DrystoneWallCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drystone_wall_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/drystone_wall_cutter_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/drystone_wall_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "DrystoneStairCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drystone_stair_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/drystone_stair_cutter_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/drystone_stair_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "DrystoneBrickStairsCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drystone_brick_stairs_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/drystone_brick_stairs_cutter_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/drystone_brick_stairs_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "DrystonebrickSlabCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drystonebrick_slab_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/drystonebrick_slab_cutter_recipe.json",
+          "src/main/resources/data/syndred/recipe/drystonebrick_slab_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "DrystoneBrickWallCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drystone_brick_wall_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/drystone_brick_wall_cutter_recipe.json",
+          "src/main/resources/data/syndred/recipe/drystone_brick_wall_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "PolishedDrystoneCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_drystone_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/polished_drystone_cutter_recipe.json",
+          "src/main/resources/data/syndred/recipe/polished_drystone_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "PolishedDrystoneStairCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_drystone_stair_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/polished_drystone_stair_cutter_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/polished_drystone_stair_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "PolishedDrystoneSlabCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_drystone_slab_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/polished_drystone_slab_cutter_recipe.json",
+          "src/main/resources/data/syndred/recipe/polished_drystone_slab_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "PolishedDrystoneWallCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_drystone_wall_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/polished_drystone_wall_cutter_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/polished_drystone_wall_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "SmallDrystoneBrickSlabCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_drystone_brick_slab_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/small_drystone_brick_slab_cutter_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/small_drystone_brick_slab_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "SmallDrystonebrickStairCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_drystonebrick_stair_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/small_drystonebrick_stair_cutter_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/small_drystonebrick_stair_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "SmallDrystoneBrickWallCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_drystone_brick_wall_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/small_drystone_brick_wall_cutter_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/small_drystone_brick_wall_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "LargeDrystoneBrickStairCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_drystone_brick_stair_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/large_drystone_brick_stair_cutter_recipe.json",
+          "src/main/resources/data/syndred/recipe/large_drystone_brick_stair_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "LargeDrystoneBrickSlabCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_drystone_brick_slab_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/large_drystone_brick_slab_cutter_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/large_drystone_brick_slab_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
+    },
+    {
+      "name": "LargeDrystoneBrickWallCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_drystone_brick_wall_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/large_drystone_brick_wall_cutter_recipe.json",
+          "src/main/resources/data/syndred/recipe/large_drystone_brick_wall_cutter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/DryStone Stuff"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:HarshStonePolishedSlab",
+      "~CUSTOM:HarshStonePolishedWall",
+      "~CUSTOM:HarshStonePolishedStairs",
+      "~CUSTOM:HarshStoneBrickwall",
+      "~CUSTOM:HarshStoneBrickSlab",
+      "~CUSTOM:HarshStoneBrickStairs",
+      "~CUSTOM:LargeDryStonebrickWall",
+      "~CUSTOM:LargeDryStonebrickSlab",
+      "~CUSTOM:LargeDryStonebrickStairs",
+      "~CUSTOM:SmallDryStonebrickWall",
+      "~CUSTOM:SmallDryStonebrickSlab",
+      "~CUSTOM:SmallDryStonebrickStairs",
+      "~CUSTOM:DryStonePolishedwall",
+      "~CUSTOM:DryStonePolishedSlab",
+      "~CUSTOM:DryStonePolishedStairs",
+      "~CUSTOM:DryStonebricksWall",
+      "~CUSTOM:DryStonebricksSlabs",
+      "~CUSTOM:DryStonebricksStairs",
+      "~CUSTOM:HarshStoneWall",
+      "~CUSTOM:HarshStoneSlabs",
+      "~CUSTOM:HarshStoneStairs",
+      "~CUSTOM:DryStoneSlab",
+      "~CUSTOM:DryStoneWall",
+      "~CUSTOM:DryStoneStairs",
+      "~CUSTOM:HarshStoneChiseled",
+      "~CUSTOM:LargeDryStonebricks",
+      "~CUSTOM:SmallDryStonebricks",
+      "~CUSTOM:DryStonePolished",
+      "~CUSTOM:HarshStonePolished",
+      "~CUSTOM:HarshStoneBricks",
+      "~CUSTOM:DryStonebricks",
       "~CUSTOM:SphaleriteBlock",
       "~CUSTOM:SoulsteelBlock",
       "~CUSTOM:HarshStone",
@@ -1243,6 +2427,18 @@
       "~CUSTOM:AnimaConflux"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:HarshStonePolishedSlab",
+      "~CUSTOM:HarshStonePolishedWall",
+      "~CUSTOM:HarshStonePolishedStairs",
+      "~CUSTOM:HarshStoneBrickwall",
+      "~CUSTOM:HarshStoneBrickSlab",
+      "~CUSTOM:HarshStoneBrickStairs",
+      "~CUSTOM:HarshStoneWall",
+      "~CUSTOM:HarshStoneSlabs",
+      "~CUSTOM:HarshStoneStairs",
+      "~CUSTOM:HarshStoneChiseled",
+      "~CUSTOM:HarshStonePolished",
+      "~CUSTOM:HarshStoneBricks",
       "~CUSTOM:HarshStone",
       "~CUSTOM:RawSphaleriteBlock",
       "~CUSTOM:SphaleriteOre",
@@ -1303,12 +2499,41 @@
       "~CUSTOM:SoulshireVinesEnd",
       "~CUSTOM:SoulshireVines"
     ],
-    "BIOMES:minecraft:is_overworld": [],
     "BLOCKS:mod:soulshire_vine": [
       "CUSTOM:SoulshireVines",
       "CUSTOM:SoulshireVinesEnd",
       "CUSTOM:SoulshireVinesFruiting",
       "CUSTOM:SoulshireVinesEndFruiting"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:HarshStonePolishedStairs",
+      "~CUSTOM:HarshStoneBrickStairs",
+      "~CUSTOM:LargeDryStonebrickStairs",
+      "~CUSTOM:SmallDryStonebrickStairs",
+      "~CUSTOM:DryStonePolishedStairs",
+      "~CUSTOM:DryStonebricksStairs",
+      "~CUSTOM:HarshStoneStairs",
+      "~CUSTOM:DryStoneStairs"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:HarshStonePolishedWall",
+      "~CUSTOM:HarshStoneBrickwall",
+      "~CUSTOM:LargeDryStonebrickWall",
+      "~CUSTOM:SmallDryStonebrickWall",
+      "~CUSTOM:DryStonePolishedwall",
+      "~CUSTOM:DryStonebricksWall",
+      "~CUSTOM:HarshStoneWall",
+      "~CUSTOM:DryStoneWall"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:HarshStonePolishedSlab",
+      "~CUSTOM:HarshStoneBrickSlab",
+      "~CUSTOM:LargeDryStonebrickSlab",
+      "~CUSTOM:SmallDryStonebrickSlab",
+      "~CUSTOM:DryStonePolishedSlab",
+      "~CUSTOM:DryStonebricksSlabs",
+      "~CUSTOM:HarshStoneSlabs",
+      "~CUSTOM:DryStoneSlab"
     ]
   },
   "tab_element_order": {},
@@ -1339,9 +2564,9 @@
       "item.syndred.soulsteel_spade": "Soulsteel Pickaxe",
       "item.syndred.soulsteel_hoe": "Soulsteel Pickaxe",
       "item.syndred.dry_stone": "Dry Stone",
-      "item.syndred.harsh_stone": "Dry Stone",
+      "item.syndred.harsh_stone": "Harsh Stone",
       "item.syndred.soulsteel_block": "Soulsteel Block",
-      "item.syndred.sphalerite_block": "Soulsteel Block",
+      "item.syndred.sphalerite_block": "Spalerite Block",
       "entity.syndred.charger": "Charger",
       "item.syndred.charger_spawn_egg": "Charger Spawn Egg",
       "item.syndred.horn_lance": "Horn Lance",
@@ -1356,7 +2581,38 @@
       "item.syndred.soul_shire_fruit": "Soul Shire Fruit",
       "item.syndred.soulshire_wood": "Soulshire Wood",
       "item.syndred.stripped_soulshire_log": "Stripped Soulshire Log",
-      "item.syndred.stripped_soulshire_wood": "Stripped Soulshire Wood"
+      "item.syndred.stripped_soulshire_wood": "Stripped Soulshire Wood",
+      "item.syndred.dry_stonebricks": "Dry Stone Bricks",
+      "item.syndred.harsh_stone_bricks": "Harsh Stone Bricks",
+      "item.syndred.harsh_stone_polished": "Polished Harsh Stone",
+      "item.syndred.dry_stone_polished": "Polished Dry Stone",
+      "item.syndred.small_dry_stonebricks": "Small Dry Stone bricks",
+      "item.syndred.large_dry_stonebricks": "Large Dry Stone bricks",
+      "item.syndred.harsh_stone_chiseled": "Polished Harsh Stone",
+      "item.syndred.dry_stone_stairs": "Dry Stone Stairs",
+      "item.syndred.dry_stone_wall": "Dry Stone Wall",
+      "item.syndred.dry_stone_slab": "Dry Stone Slab",
+      "item.syndred.harsh_stone_stairs": "Harsh Stone Stairs",
+      "item.syndred.harsh_stone_slabs": "Harsh Stone Slab",
+      "item.syndred.harsh_stone_wall": "Harsh Stone Wall",
+      "item.syndred.dry_stonebricks_stairs": "Dry Stone Brick Stairs",
+      "item.syndred.dry_stonebricks_slabs": "Dry Stone Brick Slab",
+      "item.syndred.dry_stonebricks_wall": "Dry Stone Brick Wall",
+      "item.syndred.dry_stone_polished_stairs": "Polished Dry Stone Stairs",
+      "item.syndred.dry_stone_polished_slab": "Polished Dry Stone Stairs",
+      "item.syndred.dry_stone_polishedwall": "Polished Dry Stone Stairs",
+      "item.syndred.small_dry_stonebrick_stairs": "Small Dry Stone brick Stairs",
+      "item.syndred.small_dry_stonebrick_slab": "Small Dry Stone brick Slab",
+      "item.syndred.small_dry_stonebrick_wall": "Small Dry Stone brick Wall",
+      "item.syndred.large_dry_stonebrick_stairs": "Large Dry Stone brick Stairs",
+      "item.syndred.large_dry_stonebrick_slab": "Large Dry Stone brick Slab",
+      "item.syndred.large_dry_stonebrick_wall": "Large Dry Stone brick Wall",
+      "item.syndred.harsh_stone_brick_stairs": "Harsh Stone Brick Stairs",
+      "item.syndred.harsh_stone_brick_slab": "Harsh Stone Brick Slab",
+      "item.syndred.harsh_stone_brickwall": "Harsh Stone Brick Wall",
+      "item.syndred.harsh_stone_polished_stairs": "Polished Harsh Stone Stairs",
+      "item.syndred.harsh_stone_polished_wall": "Polished Harsh Stone Wall",
+      "item.syndred.harsh_stone_polished_slab": "Polished Harsh Stone Slab"
     }
   },
   "metadata": {
@@ -1420,7 +2676,48 @@
           },
           {
             "name": "Generated",
-            "children": []
+            "children": [
+              {
+                "name": "DryStoneNatural",
+                "children": []
+              },
+              {
+                "name": "HarshStoneNatural",
+                "children": []
+              },
+              {
+                "name": "DryStoneBricks",
+                "children": []
+              },
+              {
+                "name": "HarshStoneBricks",
+                "children": []
+              },
+              {
+                "name": "PolishedDryStone",
+                "children": []
+              },
+              {
+                "name": "PolishedHarshStone",
+                "children": []
+              },
+              {
+                "name": "SmallDryStoneBricks",
+                "children": []
+              },
+              {
+                "name": "LargeDryStonebricks",
+                "children": []
+              },
+              {
+                "name": "ChiseledHarshStone",
+                "children": []
+              },
+              {
+                "name": "ChiseledDryStone",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Block Versions",
@@ -1452,6 +2749,14 @@
               },
               {
                 "name": "Sphalerite Stuff",
+                "children": []
+              },
+              {
+                "name": "DryStone Stuff",
+                "children": []
+              },
+              {
+                "name": "HarshStone Stuff",
                 "children": []
               }
             ]

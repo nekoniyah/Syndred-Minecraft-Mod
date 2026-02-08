@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "syndred:block/harsh_stone",
+    "particle": "syndred:block/harsh_stone"
+  },
+  "render_type": "solid"
+}

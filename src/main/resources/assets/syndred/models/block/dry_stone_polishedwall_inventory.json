@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "syndred:block/smooth_dry_stone",
+    "particle": "syndred:block/smooth_dry_stone"
+  },
+  "render_type": "solid"
+}

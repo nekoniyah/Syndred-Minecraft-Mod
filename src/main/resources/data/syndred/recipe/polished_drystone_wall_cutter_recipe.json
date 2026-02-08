@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "syndred:dry_stone_polished",
+  "result": {
+    "id": "syndred:dry_stone_polishedwall",
+    "count": 1
+  }
+}

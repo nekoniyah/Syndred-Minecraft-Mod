@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "syndred:dry_stone_stairs",
+    "syndred:harsh_stone_polished_stairs",
+    "syndred:small_dry_stonebrick_stairs",
+    "syndred:harsh_stone_stairs",
+    "syndred:dry_stone_polished_stairs",
+    "syndred:dry_stonebricks_stairs",
+    "syndred:harsh_stone_brick_stairs",
+    "syndred:large_dry_stonebrick_stairs"
+  ]
+}
