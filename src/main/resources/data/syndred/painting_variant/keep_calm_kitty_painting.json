@@ -1,0 +1,11 @@
+{
+  "asset_id": "syndred:keep_calm_kitty_painting",
+  "height": 1,
+  "width": 1,
+  "title": {
+    "translate": "painting.syndred.keep_calm_kitty_painting.title"
+  },
+  "author": {
+    "translate": "painting.syndred.keep_calm_kitty_painting.author"
+  }
+}

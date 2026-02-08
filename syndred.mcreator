@@ -2380,6 +2380,19 @@
         ]
       },
       "path": "~/GUIs"
+    },
+    {
+      "name": "KeepCalmKittyPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keep_calm_kitty_painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/painting_variant/keep_calm_kitty_painting.json"
+        ]
+      },
+      "path": "~/Paintings"
     }
   ],
   "variable_elements": [],
@@ -2626,32 +2639,36 @@
       "item.syndred.harsh_stone_brickwall": "Harsh Stone Brick Wall",
       "item.syndred.harsh_stone_polished_stairs": "Polished Harsh Stone Stairs",
       "item.syndred.harsh_stone_polished_wall": "Polished Harsh Stone Wall",
-      "item.syndred.harsh_stone_polished_slab": "Polished Harsh Stone Slab"
+      "item.syndred.harsh_stone_polished_slab": "Polished Harsh Stone Slab",
+      "painting.syndred.keep_calm_kitty_painting.title": "Keep Calm Kitty",
+      "painting.syndred.keep_calm_kitty_painting.author": "Plant_King_Eli"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/syndred/world/features/StructureFeature.java",
       "src/main/java/net/mcreator/syndred/world/features/configurations/StructureFeatureConfiguration.java",
+      "src/main/java/net/mcreator/syndred/world/features/StructureFeature.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
       "src/main/java/net/mcreator/syndred/network/MenuStateUpdateMessage.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModRecipeTypes.java",
       "src/main/java/net/mcreator/syndred/jei_recipes/EmptyIngredient.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModJeiPlugin.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModRecipeTypes.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/syndred/init/SyndredModBrewingRecipes.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlocks.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlockEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModEntityRenderers.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModEntities.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/syndred/init/SyndredModEntityRenderers.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/syndred/client/RenderUtils.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModModels.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/syndred/SyndredMod.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java"
+      "src/main/java/net/mcreator/syndred/client/ItemArms.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

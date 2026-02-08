@@ -44,6 +44,9 @@ public class SyndredModTabs {
 				tabData.accept(SyndredModBlocks.HARSH_STONE.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSTEEL_BLOCK.get().asItem());
 				tabData.accept(SyndredModBlocks.SPHALERITE_BLOCK.get().asItem());
+				tabData.accept(SyndredModItems.CHARGER_SPAWN_EGG.get());
+				tabData.accept(SyndredModItems.HORN_LANCE.get());
+				tabData.accept(SyndredModBlocks.EGG_INCUBATOR.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSHIRE_LOG.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSHIRE_LEAVES.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSHIRE_SAPLING.get().asItem());
