@@ -28,8 +28,6 @@ public class ChargerRenderer extends MobRenderer<ChargerEntity, LivingEntityRend
 
 	@Override
 	public ResourceLocation getTextureLocation(LivingEntityRenderState state) {
-		if (entity != null)
-			return ResourceLocation.parse("syndred:textures/entities/" + entity.getTexture() + ".png");
 		return ResourceLocation.parse("syndred:textures/entities/charger.png");
 	}
 }

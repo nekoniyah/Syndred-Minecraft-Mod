@@ -2,20 +2,8 @@
   "replace": false,
   "values": [
     "syndred:sphalerite_ore",
-    "syndred:harsh_stone_chiseled",
-    "syndred:harsh_stone",
-    "syndred:harsh_stone_wall",
-    "syndred:harsh_stone_polished_slab",
-    "syndred:harsh_stone_brick_stairs",
     "syndred:deepslate_sphalerite_ore",
-    "syndred:harsh_stone_bricks",
-    "syndred:harsh_stone_polished_wall",
-    "syndred:harsh_stone_polished_stairs",
-    "syndred:harsh_stone_stairs",
-    "syndred:raw_sphalerite_block",
-    "syndred:harsh_stone_slabs",
-    "syndred:harsh_stone_polished",
-    "syndred:harsh_stone_brickwall",
-    "syndred:harsh_stone_brick_slab"
+    "syndred:harsh_stone",
+    "syndred:raw_sphalerite_block"
   ]
 }

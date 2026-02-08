@@ -6,7 +6,6 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.redstone.Orientation;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -24,15 +23,10 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.syndred.procedures.SoulshireVinesOnTickUpdateProcedure;
-import net.mcreator.syndred.procedures.SoulshireVinesOnNeighborBlockUpdateProcedure;
 import net.mcreator.syndred.procedures.SoulshireVinesFruitingOnBlockRightclickedProcedure;
 import net.mcreator.syndred.init.SyndredModItems;
 
-import javax.annotation.Nullable;
-
 public class SoulshireVinesFruitingBlock extends Block {
-	private static final VoxelShape SHAPE = box(1, 0, 1, 14, 16, 14);
-
 	public SoulshireVinesFruitingBlock(BlockBehaviour.Properties properties) {
 		super(properties.mapColor(MapColor.NETHER).sound(SoundType.VINE).strength(0.2f, 10f).lightLevel(s -> 5).noCollission().noOcclusion().randomTicks().isRedstoneConductor((bs, br, bp) -> false).ignitedByLava());
 	}
@@ -54,7 +48,7 @@ public class SoulshireVinesFruitingBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return (SHAPE);
+		return box(1, 0, 1, 14, 16, 14);
 	}
 
 	@Override
@@ -70,12 +64,6 @@ public class SoulshireVinesFruitingBlock extends Block {
 	@Override
 	public ItemStack getCloneItemStack(LevelReader world, BlockPos pos, BlockState state, boolean includeData, Player entity) {
 		return new ItemStack(SyndredModItems.SOUL_SHIRE_FRUIT.get());
-	}
-
-	@Override
-	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, @Nullable Orientation orientation, boolean moving) {
-		super.neighborChanged(blockstate, world, pos, neighborBlock, orientation, moving);
-		SoulshireVinesOnNeighborBlockUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

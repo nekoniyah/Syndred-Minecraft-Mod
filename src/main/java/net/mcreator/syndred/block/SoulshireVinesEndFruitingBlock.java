@@ -6,7 +6,6 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.redstone.Orientation;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -24,11 +23,8 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.syndred.procedures.SoulshireVinesOnTickUpdateProcedure;
-import net.mcreator.syndred.procedures.SoulshireVinesOnNeighborBlockUpdateProcedure;
 import net.mcreator.syndred.procedures.SoulshireVinesFruitingOnBlockRightclickedProcedure;
 import net.mcreator.syndred.init.SyndredModItems;
-
-import javax.annotation.Nullable;
 
 public class SoulshireVinesEndFruitingBlock extends Block {
 	public SoulshireVinesEndFruitingBlock(BlockBehaviour.Properties properties) {
@@ -68,12 +64,6 @@ public class SoulshireVinesEndFruitingBlock extends Block {
 	@Override
 	public ItemStack getCloneItemStack(LevelReader world, BlockPos pos, BlockState state, boolean includeData, Player entity) {
 		return new ItemStack(SyndredModItems.SOUL_SHIRE_FRUIT.get());
-	}
-
-	@Override
-	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, @Nullable Orientation orientation, boolean moving) {
-		super.neighborChanged(blockstate, world, pos, neighborBlock, orientation, moving);
-		SoulshireVinesOnNeighborBlockUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

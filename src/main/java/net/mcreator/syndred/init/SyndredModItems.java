@@ -55,44 +55,10 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> SOULSHIRE_WOOD;
 	public static final DeferredItem<Item> STRIPPED_SOULSHIRE_LOG;
 	public static final DeferredItem<Item> STRIPPED_SOULSHIRE_WOOD;
-<<<<<<< HEAD
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_HELMET;
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_CHESTPLATE;
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_LEGGINGS;
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_BOOTS;
-=======
-	public static final DeferredItem<Item> DRY_STONEBRICKS;
-	public static final DeferredItem<Item> HARSH_STONE_BRICKS;
-	public static final DeferredItem<Item> HARSH_STONE_POLISHED;
-	public static final DeferredItem<Item> DRY_STONE_POLISHED;
-	public static final DeferredItem<Item> SMALL_DRY_STONEBRICKS;
-	public static final DeferredItem<Item> LARGE_DRY_STONEBRICKS;
-	public static final DeferredItem<Item> HARSH_STONE_CHISELED;
-	public static final DeferredItem<Item> DRY_STONE_STAIRS;
-	public static final DeferredItem<Item> DRY_STONE_WALL;
-	public static final DeferredItem<Item> DRY_STONE_SLAB;
-	public static final DeferredItem<Item> HARSH_STONE_STAIRS;
-	public static final DeferredItem<Item> HARSH_STONE_SLABS;
-	public static final DeferredItem<Item> HARSH_STONE_WALL;
-	public static final DeferredItem<Item> DRY_STONEBRICKS_STAIRS;
-	public static final DeferredItem<Item> DRY_STONEBRICKS_SLABS;
-	public static final DeferredItem<Item> DRY_STONEBRICKS_WALL;
-	public static final DeferredItem<Item> DRY_STONE_POLISHED_STAIRS;
-	public static final DeferredItem<Item> DRY_STONE_POLISHED_SLAB;
-	public static final DeferredItem<Item> DRY_STONE_POLISHEDWALL;
-	public static final DeferredItem<Item> SMALL_DRY_STONEBRICK_STAIRS;
-	public static final DeferredItem<Item> SMALL_DRY_STONEBRICK_SLAB;
-	public static final DeferredItem<Item> SMALL_DRY_STONEBRICK_WALL;
-	public static final DeferredItem<Item> LARGE_DRY_STONEBRICK_STAIRS;
-	public static final DeferredItem<Item> LARGE_DRY_STONEBRICK_SLAB;
-	public static final DeferredItem<Item> LARGE_DRY_STONEBRICK_WALL;
-	public static final DeferredItem<Item> HARSH_STONE_BRICK_STAIRS;
-	public static final DeferredItem<Item> HARSH_STONE_BRICK_SLAB;
-	public static final DeferredItem<Item> HARSH_STONE_BRICKWALL;
-	public static final DeferredItem<Item> HARSH_STONE_POLISHED_STAIRS;
-	public static final DeferredItem<Item> HARSH_STONE_POLISHED_WALL;
-	public static final DeferredItem<Item> HARSH_STONE_POLISHED_SLAB;
->>>>>>> refs/remotes/origin/master
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -130,44 +96,10 @@ public class SyndredModItems {
 		SOULSHIRE_WOOD = block(SyndredModBlocks.SOULSHIRE_WOOD);
 		STRIPPED_SOULSHIRE_LOG = block(SyndredModBlocks.STRIPPED_SOULSHIRE_LOG);
 		STRIPPED_SOULSHIRE_WOOD = block(SyndredModBlocks.STRIPPED_SOULSHIRE_WOOD);
-<<<<<<< HEAD
 		LEATHER_SOULSTEEL_HELMET = register("leather_soulsteel_helmet", LeatherSoulsteelItem.Helmet::new);
 		LEATHER_SOULSTEEL_CHESTPLATE = register("leather_soulsteel_chestplate", LeatherSoulsteelItem.Chestplate::new);
 		LEATHER_SOULSTEEL_LEGGINGS = register("leather_soulsteel_leggings", LeatherSoulsteelItem.Leggings::new);
 		LEATHER_SOULSTEEL_BOOTS = register("leather_soulsteel_boots", LeatherSoulsteelItem.Boots::new);
-=======
-		DRY_STONEBRICKS = block(SyndredModBlocks.DRY_STONEBRICKS);
-		HARSH_STONE_BRICKS = block(SyndredModBlocks.HARSH_STONE_BRICKS);
-		HARSH_STONE_POLISHED = block(SyndredModBlocks.HARSH_STONE_POLISHED);
-		DRY_STONE_POLISHED = block(SyndredModBlocks.DRY_STONE_POLISHED);
-		SMALL_DRY_STONEBRICKS = block(SyndredModBlocks.SMALL_DRY_STONEBRICKS);
-		LARGE_DRY_STONEBRICKS = block(SyndredModBlocks.LARGE_DRY_STONEBRICKS);
-		HARSH_STONE_CHISELED = block(SyndredModBlocks.HARSH_STONE_CHISELED);
-		DRY_STONE_STAIRS = block(SyndredModBlocks.DRY_STONE_STAIRS);
-		DRY_STONE_WALL = block(SyndredModBlocks.DRY_STONE_WALL);
-		DRY_STONE_SLAB = block(SyndredModBlocks.DRY_STONE_SLAB);
-		HARSH_STONE_STAIRS = block(SyndredModBlocks.HARSH_STONE_STAIRS);
-		HARSH_STONE_SLABS = block(SyndredModBlocks.HARSH_STONE_SLABS);
-		HARSH_STONE_WALL = block(SyndredModBlocks.HARSH_STONE_WALL);
-		DRY_STONEBRICKS_STAIRS = block(SyndredModBlocks.DRY_STONEBRICKS_STAIRS);
-		DRY_STONEBRICKS_SLABS = block(SyndredModBlocks.DRY_STONEBRICKS_SLABS);
-		DRY_STONEBRICKS_WALL = block(SyndredModBlocks.DRY_STONEBRICKS_WALL);
-		DRY_STONE_POLISHED_STAIRS = block(SyndredModBlocks.DRY_STONE_POLISHED_STAIRS);
-		DRY_STONE_POLISHED_SLAB = block(SyndredModBlocks.DRY_STONE_POLISHED_SLAB);
-		DRY_STONE_POLISHEDWALL = block(SyndredModBlocks.DRY_STONE_POLISHEDWALL);
-		SMALL_DRY_STONEBRICK_STAIRS = block(SyndredModBlocks.SMALL_DRY_STONEBRICK_STAIRS);
-		SMALL_DRY_STONEBRICK_SLAB = block(SyndredModBlocks.SMALL_DRY_STONEBRICK_SLAB);
-		SMALL_DRY_STONEBRICK_WALL = block(SyndredModBlocks.SMALL_DRY_STONEBRICK_WALL);
-		LARGE_DRY_STONEBRICK_STAIRS = block(SyndredModBlocks.LARGE_DRY_STONEBRICK_STAIRS);
-		LARGE_DRY_STONEBRICK_SLAB = block(SyndredModBlocks.LARGE_DRY_STONEBRICK_SLAB);
-		LARGE_DRY_STONEBRICK_WALL = block(SyndredModBlocks.LARGE_DRY_STONEBRICK_WALL);
-		HARSH_STONE_BRICK_STAIRS = block(SyndredModBlocks.HARSH_STONE_BRICK_STAIRS);
-		HARSH_STONE_BRICK_SLAB = block(SyndredModBlocks.HARSH_STONE_BRICK_SLAB);
-		HARSH_STONE_BRICKWALL = block(SyndredModBlocks.HARSH_STONE_BRICKWALL);
-		HARSH_STONE_POLISHED_STAIRS = block(SyndredModBlocks.HARSH_STONE_POLISHED_STAIRS);
-		HARSH_STONE_POLISHED_WALL = block(SyndredModBlocks.HARSH_STONE_POLISHED_WALL);
-		HARSH_STONE_POLISHED_SLAB = block(SyndredModBlocks.HARSH_STONE_POLISHED_SLAB);
->>>>>>> refs/remotes/origin/master
 	}
 
 	// Start of user code block custom items
