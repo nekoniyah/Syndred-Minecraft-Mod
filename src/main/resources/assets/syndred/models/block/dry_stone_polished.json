@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "syndred:block/smooth_dry_stone",
+    "particle": "syndred:block/smooth_dry_stone"
+  },
+  "render_type": "solid"
+}

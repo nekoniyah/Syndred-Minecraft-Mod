@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:LargeDryStonebricks"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:LargeDryStonebrickSlab"
+    },
+    "name": "large_drystone_brick_slab_cutter_recipe",
+    "namespace": "mod"
+  }
+}

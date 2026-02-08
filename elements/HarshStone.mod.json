@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Dry Stone",
+    "name": "Harsh Stone",
     "specialInformation": {
       "fixedValue": []
     },
@@ -51,7 +51,14 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SyndredTab"
+      },
+      {
+        "value": "DECORATIONS"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -146,6 +153,6 @@
     "frequencyPerChunks": 3,
     "frequencyOnChunk": 45,
     "minGenerateHeight": -64,
-    "maxGenerateHeight": 20
+    "maxGenerateHeight": 12
   }
 }

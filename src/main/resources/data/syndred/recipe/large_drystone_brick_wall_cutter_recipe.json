@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "syndred:large_dry_stonebricks",
+  "result": {
+    "id": "syndred:large_dry_stonebrick_wall",
+    "count": 1
+  }
+}

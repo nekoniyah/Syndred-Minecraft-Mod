@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      },
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      },
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      },
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LargeDryStonebrickStairs"
+    },
+    "name": "large_drystone_brick_stairs_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "drystone_brick_walls",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "syndred:dry_stonebricks"
+  },
+  "result": {
+    "id": "syndred:dry_stonebricks_wall",
+    "count": 6
+  }
+}

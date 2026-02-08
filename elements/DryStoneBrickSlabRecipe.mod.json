@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "drystone_brick_slabs",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:DryStonebricks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DryStonebricks"
+      },
+      {
+        "value": "CUSTOM:DryStonebricks"
+      },
+      {
+        "value": "CUSTOM:DryStonebricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DryStonebricksSlabs"
+    },
+    "name": "dry_stone_brick_slab_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "syndred:small_dry_stonebrick_slab",
+    "syndred:dry_stone_slab",
+    "syndred:harsh_stone_polished_slab",
+    "syndred:dry_stonebricks_slabs",
+    "syndred:harsh_stone_slabs",
+    "syndred:large_dry_stonebrick_slab",
+    "syndred:dry_stone_polished_slab",
+    "syndred:harsh_stone_brick_slab"
+  ]
+}

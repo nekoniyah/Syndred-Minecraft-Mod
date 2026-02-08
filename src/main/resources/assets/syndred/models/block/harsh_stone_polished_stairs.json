@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "syndred:block/polished_harsh_rock",
+    "bottom": "syndred:block/polished_harsh_rock",
+    "top": "syndred:block/polished_harsh_rock",
+    "side": "syndred:block/polished_harsh_rock"
+  },
+  "render_type": "solid"
+}

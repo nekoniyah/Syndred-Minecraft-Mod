@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "syndred:dry_stone_wall",
+    "syndred:harsh_stone_polished_wall",
+    "syndred:harsh_stone_wall",
+    "syndred:small_dry_stonebrick_wall",
+    "syndred:large_dry_stonebrick_wall",
+    "syndred:dry_stonebricks_wall",
+    "syndred:dry_stone_polishedwall",
+    "syndred:harsh_stone_brickwall"
+  ]
+}

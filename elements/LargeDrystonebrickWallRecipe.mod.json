@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "drystone_largebrick_walls",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      },
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      },
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      },
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      },
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      },
+      {
+        "value": "CUSTOM:LargeDryStonebricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LargeDryStonebrickWall"
+    },
+    "name": "large_drystonebrick_wall_recipe",
+    "namespace": "mod"
+  }
+}

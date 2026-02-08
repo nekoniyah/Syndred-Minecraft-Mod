@@ -138,6 +138,9 @@
     "onRightClicked": {
       "name": "SoulshireVinesFruitingOnBlockRightclicked"
     },
+    "onNeighbourBlockChanges": {
+      "name": "SoulshireVinesOnNeighborBlockUpdate"
+    },
     "onTickUpdate": {
       "name": "SoulshireVinesOnTickUpdate"
     },

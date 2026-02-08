@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "syndred:block/polished_harsh_rock",
+    "particle": "syndred:block/polished_harsh_rock"
+  },
+  "render_type": "solid"
+}

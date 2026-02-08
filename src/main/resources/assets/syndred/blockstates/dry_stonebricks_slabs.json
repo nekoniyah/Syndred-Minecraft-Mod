@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "syndred:block/dry_stonebricks_slabs"
+    },
+    "type=top": {
+      "model": "syndred:block/dry_stonebricks_slabs_top"
+    },
+    "type=double": {
+      "model": "syndred:block/dry_stonebricks_slabs_full"
+    }
+  }
+}
