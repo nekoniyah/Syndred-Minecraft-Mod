@@ -1,0 +1,98 @@
+package net.syndred.syndred.block;
+
+import org.checkerframework.checker.units.qual.s;
+
+import net.syndred.syndred.procedures.SoulshireVinesOnTickUpdateProcedure;
+import net.syndred.syndred.procedures.SoulshireVinesOnNeighborBlockUpdateProcedure;
+import net.syndred.syndred.procedures.SoulshireVinesFruitingOnBlockRightclickedProcedure;
+import net.syndred.syndred.init.SyndredModItems;
+
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.level.redstone.Orientation;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+
+import javax.annotation.Nullable;
+
+public class SoulshireVinesEndFruitingBlock extends Block {
+	public SoulshireVinesEndFruitingBlock(BlockBehaviour.Properties properties) {
+		super(properties.mapColor(MapColor.NETHER).sound(SoundType.VINE).strength(0.2f, 10f).lightLevel(s -> 5).noCollission().noOcclusion().randomTicks().isRedstoneConductor((bs, br, bp) -> false).ignitedByLava());
+	}
+
+	@Override
+	public boolean propagatesSkylightDown(BlockState state) {
+		return true;
+	}
+
+	@Override
+	public int getLightBlock(BlockState state) {
+		return 0;
+	}
+
+	@Override
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return box(1, 0, 1, 14, 16, 14);
+	}
+
+	@Override
+	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 100;
+	}
+
+	@Override
+	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 15;
+	}
+
+	@Override
+	public ItemStack getCloneItemStack(LevelReader world, BlockPos pos, BlockState state, boolean includeData, Player entity) {
+		return new ItemStack(SyndredModItems.SOUL_SHIRE_FRUIT.get());
+	}
+
+	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, @Nullable Orientation orientation, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, orientation, moving);
+		SoulshireVinesOnNeighborBlockUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
+	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.randomTick(blockstate, world, pos, random);
+		SoulshireVinesOnTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
+	public InteractionResult useWithoutItem(BlockState blockstate, Level world, BlockPos pos, Player entity, BlockHitResult hit) {
+		super.useWithoutItem(blockstate, world, pos, entity, hit);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		double hitX = hit.getLocation().x;
+		double hitY = hit.getLocation().y;
+		double hitZ = hit.getLocation().z;
+		Direction direction = hit.getDirection();
+		SoulshireVinesFruitingOnBlockRightclickedProcedure.execute(world, x, y, z);
+		return InteractionResult.SUCCESS;
+	}
+}

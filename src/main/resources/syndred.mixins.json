@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "net.mcreator.syndred.mixin",
+  "package": "net.syndred.syndred.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "NoiseGeneratorSettingsMixin"

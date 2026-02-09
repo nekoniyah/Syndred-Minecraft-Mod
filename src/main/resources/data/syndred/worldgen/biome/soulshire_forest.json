@@ -12,7 +12,26 @@
   },
   "spawners": {
     "monster": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "syndred:charger",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "cat",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "fox",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],

@@ -104,6 +104,34 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Charger"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 3,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCat"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 6,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityFox"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 5,
+        "spawnType": "creature"
+      }
+    ]
   }
 }

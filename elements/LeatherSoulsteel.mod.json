@@ -13,6 +13,9 @@
     "creativeTabs": [
       {
         "value": "COMBAT"
+      },
+      {
+        "value": "CUSTOM:SyndredTab"
       }
     ],
     "armorTextureFile": "soulsteel",
