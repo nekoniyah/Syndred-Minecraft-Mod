@@ -1,6 +1,8 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "syndred:soulshire_forest",
+  "biomes": {
+    "type": "neoforge:any"
+  },
   "spawners": {
     "type": "syndred:charger",
     "weight": 20,
