@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "syndred:block/soulshire_door_bottom"
+  },
+  "render_type": "cutout"
+}

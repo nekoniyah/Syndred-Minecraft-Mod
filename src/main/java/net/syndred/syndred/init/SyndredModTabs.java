@@ -89,6 +89,15 @@ public class SyndredModTabs {
 				tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_CHESTPLATE.get());
 				tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_LEGGINGS.get());
 				tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_BOOTS.get());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_PLANKS.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_STAIRS.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_SLAB.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_FENCE.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_FENCE_GATE.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_DOOR.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_TRAPDOOR.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_BUTTON.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_PRESSURE_PLATE.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -150,6 +159,15 @@ public class SyndredModTabs {
 			tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED_STAIRS.get().asItem());
 			tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED_WALL.get().asItem());
 			tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED_SLAB.get().asItem());
+			tabData.accept(SyndredModBlocks.SOULSHIRE_PLANKS.get().asItem());
+			tabData.accept(SyndredModBlocks.SOULSHIRE_STAIRS.get().asItem());
+			tabData.accept(SyndredModBlocks.SOULSHIRE_SLAB.get().asItem());
+			tabData.accept(SyndredModBlocks.SOULSHIRE_FENCE.get().asItem());
+			tabData.accept(SyndredModBlocks.SOULSHIRE_FENCE_GATE.get().asItem());
+			tabData.accept(SyndredModBlocks.SOULSHIRE_DOOR.get().asItem());
+			tabData.accept(SyndredModBlocks.SOULSHIRE_TRAPDOOR.get().asItem());
+			tabData.accept(SyndredModBlocks.SOULSHIRE_BUTTON.get().asItem());
+			tabData.accept(SyndredModBlocks.SOULSHIRE_PRESSURE_PLATE.get().asItem());
 		}
 	}
 }

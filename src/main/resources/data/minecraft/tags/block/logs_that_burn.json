@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#syndred:soulshir_logs",
+      "required": false
+    }
+  ]
+}

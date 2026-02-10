@@ -13,6 +13,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import java.util.function.Function;
@@ -90,6 +91,15 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_CHESTPLATE;
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_LEGGINGS;
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_BOOTS;
+	public static final DeferredItem<Item> SOULSHIRE_PLANKS;
+	public static final DeferredItem<Item> SOULSHIRE_STAIRS;
+	public static final DeferredItem<Item> SOULSHIRE_SLAB;
+	public static final DeferredItem<Item> SOULSHIRE_FENCE;
+	public static final DeferredItem<Item> SOULSHIRE_FENCE_GATE;
+	public static final DeferredItem<Item> SOULSHIRE_DOOR;
+	public static final DeferredItem<Item> SOULSHIRE_TRAPDOOR;
+	public static final DeferredItem<Item> SOULSHIRE_BUTTON;
+	public static final DeferredItem<Item> SOULSHIRE_PRESSURE_PLATE;
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -162,6 +172,15 @@ public class SyndredModItems {
 		LEATHER_SOULSTEEL_CHESTPLATE = register("leather_soulsteel_chestplate", LeatherSoulsteelItem.Chestplate::new);
 		LEATHER_SOULSTEEL_LEGGINGS = register("leather_soulsteel_leggings", LeatherSoulsteelItem.Leggings::new);
 		LEATHER_SOULSTEEL_BOOTS = register("leather_soulsteel_boots", LeatherSoulsteelItem.Boots::new);
+		SOULSHIRE_PLANKS = block(SyndredModBlocks.SOULSHIRE_PLANKS);
+		SOULSHIRE_STAIRS = block(SyndredModBlocks.SOULSHIRE_STAIRS);
+		SOULSHIRE_SLAB = block(SyndredModBlocks.SOULSHIRE_SLAB);
+		SOULSHIRE_FENCE = block(SyndredModBlocks.SOULSHIRE_FENCE);
+		SOULSHIRE_FENCE_GATE = block(SyndredModBlocks.SOULSHIRE_FENCE_GATE);
+		SOULSHIRE_DOOR = doubleBlock(SyndredModBlocks.SOULSHIRE_DOOR);
+		SOULSHIRE_TRAPDOOR = block(SyndredModBlocks.SOULSHIRE_TRAPDOOR);
+		SOULSHIRE_BUTTON = block(SyndredModBlocks.SOULSHIRE_BUTTON);
+		SOULSHIRE_PRESSURE_PLATE = block(SyndredModBlocks.SOULSHIRE_PRESSURE_PLATE);
 	}
 
 	// Start of user code block custom items
@@ -176,5 +195,13 @@ public class SyndredModItems {
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
+		return doubleBlock(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), properties);
 	}
 }

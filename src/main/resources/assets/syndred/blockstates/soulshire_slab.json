@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "syndred:block/soulshire_slab"
+    },
+    "type=top": {
+      "model": "syndred:block/soulshire_slab_top"
+    },
+    "type=double": {
+      "model": "syndred:block/soulshire_slab_full"
+    }
+  }
+}

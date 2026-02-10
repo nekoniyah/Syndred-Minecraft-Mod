@@ -12,12 +12,16 @@
     "underwaterBlock": {
       "value": "Blocks.GRAVEL"
     },
+    "fogColor": {
+      "value": -3364211,
+      "falpha": 0.0
+    },
     "grassColor": {
       "value": -5043394,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -16751104,
+      "value": -16737997,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -48,7 +52,7 @@
       "max": 0.5
     },
     "genHumidity": {
-      "min": 0.1,
+      "min": 0.2999,
       "max": 0.3
     },
     "genContinentalness": {
@@ -82,7 +86,9 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer"
+      "FrozenTopLayer",
+      "ForestGrass",
+      "ForestFlowers"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -107,20 +113,11 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "CUSTOM:Charger"
+          "value": "EntityRabbit"
         },
         "minGroup": 1,
-        "maxGroup": 2,
-        "weight": 3,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityCat"
-        },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 6,
+        "maxGroup": 4,
+        "weight": 5,
         "spawnType": "creature"
       },
       {
@@ -130,6 +127,24 @@
         "minGroup": 1,
         "maxGroup": 1,
         "weight": 5,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Charger"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 3,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityFrog"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 2,
         "spawnType": "creature"
       }
     ]

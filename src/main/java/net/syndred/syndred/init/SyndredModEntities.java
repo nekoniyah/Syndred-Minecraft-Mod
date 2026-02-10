@@ -26,7 +26,7 @@ public class SyndredModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<ChargerEntity>> CHARGER = register("charger",
 			EntityType.Builder.<ChargerEntity>of(ChargerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.9f, 1.3f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

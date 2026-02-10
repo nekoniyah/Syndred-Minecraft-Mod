@@ -69,6 +69,15 @@ public class SyndredModBlocks {
 	public static final DeferredBlock<Block> HARSH_STONE_POLISHED_STAIRS;
 	public static final DeferredBlock<Block> HARSH_STONE_POLISHED_WALL;
 	public static final DeferredBlock<Block> HARSH_STONE_POLISHED_SLAB;
+	public static final DeferredBlock<Block> SOULSHIRE_PLANKS;
+	public static final DeferredBlock<Block> SOULSHIRE_STAIRS;
+	public static final DeferredBlock<Block> SOULSHIRE_SLAB;
+	public static final DeferredBlock<Block> SOULSHIRE_FENCE;
+	public static final DeferredBlock<Block> SOULSHIRE_FENCE_GATE;
+	public static final DeferredBlock<Block> SOULSHIRE_DOOR;
+	public static final DeferredBlock<Block> SOULSHIRE_TRAPDOOR;
+	public static final DeferredBlock<Block> SOULSHIRE_BUTTON;
+	public static final DeferredBlock<Block> SOULSHIRE_PRESSURE_PLATE;
 	static {
 		ANIMA_CONFLUX = register("anima_conflux", AnimaConfluxBlock::new);
 		DEEPSLATE_SPHALERITE_ORE = register("deepslate_sphalerite_ore", DeepslateSphaleriteOreBlock::new);
@@ -123,6 +132,15 @@ public class SyndredModBlocks {
 		HARSH_STONE_POLISHED_STAIRS = register("harsh_stone_polished_stairs", HarshStonePolishedStairsBlock::new);
 		HARSH_STONE_POLISHED_WALL = register("harsh_stone_polished_wall", HarshStonePolishedWallBlock::new);
 		HARSH_STONE_POLISHED_SLAB = register("harsh_stone_polished_slab", HarshStonePolishedSlabBlock::new);
+		SOULSHIRE_PLANKS = register("soulshire_planks", SoulshirePlanksBlock::new);
+		SOULSHIRE_STAIRS = register("soulshire_stairs", SoulshireStairsBlock::new);
+		SOULSHIRE_SLAB = register("soulshire_slab", SoulshireSlabBlock::new);
+		SOULSHIRE_FENCE = register("soulshire_fence", SoulshireFenceBlock::new);
+		SOULSHIRE_FENCE_GATE = register("soulshire_fence_gate", SoulshireFenceGateBlock::new);
+		SOULSHIRE_DOOR = register("soulshire_door", SoulshireDoorBlock::new);
+		SOULSHIRE_TRAPDOOR = register("soulshire_trapdoor", SoulshireTrapdoorBlock::new);
+		SOULSHIRE_BUTTON = register("soulshire_button", SoulshireButtonBlock::new);
+		SOULSHIRE_PRESSURE_PLATE = register("soulshire_pressure_plate", SoulshirePressurePlateBlock::new);
 	}
 
 	// Start of user code block custom blocks

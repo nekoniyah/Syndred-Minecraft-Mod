@@ -1,5 +1,5 @@
 {
-  "item_group.syndred.syndred_tab": "Syndred Tab",
+  "item_group.syndred.syndred_tab": "Syndred",
   "item.syndred.raw_soulsteel": "Raw Soulsteel",
   "item.syndred.anima_conflux": "Anima Conflux",
   "item.syndred.deepslate_sphalerite_ore": "Deepslate Sphalerite Ore",
@@ -77,5 +77,14 @@
   "item.syndred.leather_soulsteel_leggings": "Leather Soulsteel Leggings",
   "item.syndred.leather_soulsteel_chestplate": "Leather Soulsteel Chestplate",
   "item.syndred.leather_soulsteel_helmet": "Leather Soulsteel Helmet",
-  "biome.syndred.soulshire_forest": "Soulshire Forest"
+  "biome.syndred.soulshire_forest": "Soulshire Forest",
+  "item.syndred.soulshire_planks": "Soulshire Planks",
+  "item.syndred.soulshire_stairs": "Soulshire Planks",
+  "item.syndred.soulshire_slab": "Soulshire Planks",
+  "item.syndred.soulshire_fence": "Soulshire Planks",
+  "item.syndred.soulshire_fence_gate": "Soulshire Planks",
+  "item.syndred.soulshire_door": "Soulshire Planks",
+  "item.syndred.soulshire_trapdoor": "Soulshire Planks",
+  "item.syndred.soulshire_button": "Soulshire Planks",
+  "item.syndred.soulshire_pressure_plate": "Soulshire Planks"
 }

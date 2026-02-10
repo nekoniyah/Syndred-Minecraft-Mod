@@ -3,10 +3,10 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
-    "foliage_color": -16751104,
+    "foliage_color": -16737997,
     "grass_color": -5043394,
     "sky_color": 7972607,
-    "fog_color": 12638463,
+    "fog_color": -3364211,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
@@ -14,22 +14,28 @@
     "monster": [],
     "creature": [
       {
-        "type": "syndred:charger",
-        "weight": 3,
+        "type": "rabbit",
+        "weight": 5,
         "minCount": 1,
-        "maxCount": 2
-      },
-      {
-        "type": "cat",
-        "weight": 6,
-        "minCount": 1,
-        "maxCount": 1
+        "maxCount": 4
       },
       {
         "type": "fox",
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "syndred:charger",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "frog",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "ambient": [],
@@ -75,7 +81,10 @@
     ],
     [],
     [],
-    [],
+    [
+      "minecraft:forest_flowers",
+      "minecraft:patch_grass_forest"
+    ],
     [
       "minecraft:freeze_top_layer"
     ]
