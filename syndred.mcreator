@@ -427,21 +427,6 @@
       "path": "~/Items/Tools/Soulsteel"
     },
     {
-      "name": "SoulsteelSpade",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "soulsteel_shovel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/syndred/models/item/soulsteel_shovel.json",
-          "src/main/java/net/syndred/syndred/item/SoulsteelSpadeItem.java",
-          "src/main/resources/assets/syndred/items/soulsteel_shovel.json"
-        ]
-      },
-      "path": "~/Items/Tools/Soulsteel"
-    },
-    {
       "name": "SoulsteelHoe",
       "type": "tool",
       "compiles": true,
@@ -2722,6 +2707,21 @@
         ]
       },
       "path": "~/Items/Tools/Midnight"
+    },
+    {
+      "name": "SoulsteelShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/soulsteel_shovel.json",
+          "src/main/java/net/syndred/syndred/item/SoulsteelShovelItem.java",
+          "src/main/resources/assets/syndred/items/soulsteel_shovel.json"
+        ]
+      },
+      "path": "~/Items/Tools/Soulsteel"
     }
   ],
   "variable_elements": [],
@@ -2817,8 +2817,8 @@
       "~CUSTOM:SoulsteelAxe"
     ],
     "ITEMS:minecraft:shovels": [
-      "~CUSTOM:MidnightShovel",
-      "~CUSTOM:SoulsteelSpade"
+      "~CUSTOM:SoulsteelShovel",
+      "~CUSTOM:MidnightShovel"
     ],
     "ITEMS:syndred:soulsteel_axe_repair_items": [
       "~CUSTOM:SoulsteelIngot"
@@ -2923,9 +2923,6 @@
     "ITEMS:syndred:midnight_shovel_repair_items": [
       "~CUSTOM:MidnightIngot"
     ],
-    "ITEMS:syndred:soulsteel_shovel_repair_items": [
-      "~CUSTOM:SoulsteelIngot"
-    ],
     "ITEMS:syndred:midnight_axe_repair_items": [
       "~CUSTOM:MidnightIngot"
     ]
@@ -3018,7 +3015,6 @@
       "item.syndred.midnight_pickaxe": "Midnight Pickaxe",
       "item.syndred.midnight_hoe": "Midnight Hoe",
       "item.syndred.midnight_shovel": "Midnight Shovel",
-      "item.syndred.soulsteel_shovel": "Soulsteel Shovel",
       "item.syndred.midnight_axe": "Midnight Axe"
     }
   },
