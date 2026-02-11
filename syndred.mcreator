@@ -907,7 +907,7 @@
           "src/main/resources/assets/syndred/blockstates/soulshire_log.json"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SoulshireLeaves",
@@ -925,7 +925,7 @@
           "src/main/resources/assets/syndred/blockstates/soulshire_leaves.json"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SoulshireSapling",
@@ -943,7 +943,7 @@
           "src/main/resources/assets/syndred/models/item/soulshire_sapling.json"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SoulshireVines",
@@ -961,7 +961,7 @@
           "src/main/java/net/syndred/syndred/block/SoulshireVinesBlock.java"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SoulshireVinesEnd",
@@ -979,7 +979,7 @@
           "src/main/resources/assets/syndred/items/soulshire_vines_end.json"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SoulshireVinesFruiting",
@@ -997,7 +997,7 @@
           "src/main/resources/assets/syndred/models/block/soulshire_vines_fruiting.json"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SoulshireVinesEndFruiting",
@@ -1015,7 +1015,7 @@
           "src/main/resources/assets/syndred/items/soulshire_vines_end_fruiting.json"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SoulshireVinesOnTickUpdate",
@@ -1046,7 +1046,7 @@
           "src/main/java/net/syndred/syndred/procedures/SoulshireVinesOnTickUpdateProcedure.java"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SoulShireFruit",
@@ -1061,7 +1061,7 @@
           "src/main/resources/assets/syndred/models/item/soul_shire_fruit.json"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SoulShireFruitRightclickedOnBlock",
@@ -1096,7 +1096,7 @@
           "src/main/java/net/syndred/syndred/procedures/SoulShireFruitRightclickedOnBlockProcedure.java"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SoulshireVinesFruitingOnBlockRightclicked",
@@ -1127,7 +1127,7 @@
           "src/main/java/net/syndred/syndred/procedures/SoulshireVinesFruitingOnBlockRightclickedProcedure.java"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SoulshireWood",
@@ -1145,7 +1145,7 @@
           "src/main/java/net/syndred/syndred/block/SoulshireWoodBlock.java"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "StrippedSoulshireLog",
@@ -1163,7 +1163,7 @@
           "src/main/resources/assets/syndred/models/item/stripped_soulshire_log.json"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "StrippedSoulshireWood",
@@ -1181,7 +1181,7 @@
           "src/main/resources/assets/syndred/items/stripped_soulshire_wood.json"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SoulshireTree",
@@ -1300,7 +1300,7 @@
           "src/main/java/net/syndred/syndred/procedures/SoulshireVinesOnNeighborBlockUpdateProcedure.java"
         ]
       },
-      "path": "~/Blocks/Natural"
+      "path": "~/Blocks/Natural/Soulshire"
     },
     {
       "name": "SmallDryStonebricks",
@@ -2722,6 +2722,171 @@
         ]
       },
       "path": "~/Items/Tools/Soulsteel"
+    },
+    {
+      "name": "SoulshireStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/syndred/syndred/block/SoulshireStairsBlock.java",
+          "src/main/resources/assets/syndred/models/block/soulshire_stairs_outer.json",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_stairs.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_stairs.json",
+          "src/main/resources/assets/syndred/items/soulshire_stairs.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_stairs.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_stairs.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Natural/Soulshire/Decorative"
+    },
+    {
+      "name": "SoulshireSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/blockstates/soulshire_slab.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_slab_top.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_slab.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_slab.json",
+          "src/main/resources/assets/syndred/items/soulshire_slab.json",
+          "src/main/java/net/syndred/syndred/block/SoulshireSlabBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_slab.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Natural/Soulshire/Decorative"
+    },
+    {
+      "name": "SoulshireDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_door.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_door_bottom_right.json",
+          "src/main/resources/assets/syndred/items/soulshire_door.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_door.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_door_bottom_right_open.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_door_bottom_left.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_door_top_left_open.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_door_top_left.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_door_bottom_left_open.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_door.json",
+          "src/main/java/net/syndred/syndred/block/SoulshireDoorBlock.java",
+          "src/main/resources/assets/syndred/models/block/soulshire_door_top_right.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_door_top_right_open.json"
+        ]
+      },
+      "path": "~/Blocks/Natural/Soulshire/Decorative"
+    },
+    {
+      "name": "SoulshireButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/syndred/syndred/block/SoulshireButtonBlock.java",
+          "src/main/resources/assets/syndred/items/soulshire_button.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_button.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_button_inventory.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_button.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_button_pressed.json",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_button.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_button.json"
+        ]
+      },
+      "path": "~/Blocks/Natural/Soulshire/Decorative"
+    },
+    {
+      "name": "SoulshirePressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/soulshire_pressure_plate.json",
+          "src/main/resources/assets/syndred/items/soulshire_pressure_plate.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_pressure_plate.json",
+          "src/main/java/net/syndred/syndred/block/SoulshirePressurePlateBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_pressure_plate.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_pressure_plate.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Blocks/Natural/Soulshire/Decorative"
+    },
+    {
+      "name": "SoulshireFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/block/soulshire_fence_gate_wall_open.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_fence_gate_wall.json",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_fence_gate.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_fence_gate.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_fence_gate.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_fence_gate.json",
+          "src/main/java/net/syndred/syndred/block/SoulshireFenceGateBlock.java",
+          "src/main/resources/assets/syndred/items/soulshire_fence_gate.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Blocks/Natural/Soulshire/Decorative"
+    },
+    {
+      "name": "SoulshireFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/blockstates/soulshire_fence.json",
+          "src/main/java/net/syndred/syndred/block/SoulshireFenceBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_fence.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_fence.json",
+          "src/main/resources/assets/syndred/items/soulshire_fence.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_fence.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_fence_inventory.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_fence_post.json"
+        ]
+      },
+      "path": "~/Blocks/Natural/Soulshire/Decorative"
+    },
+    {
+      "name": "SoulshireTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/syndred/syndred/block/SoulshireTrapdoorBlock.java",
+          "src/main/resources/assets/syndred/models/item/soulshire_trapdoor.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_trapdoor_open.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_trapdoor.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_trapdoor_top.json",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_trapdoor.json",
+          "src/main/resources/assets/syndred/items/soulshire_trapdoor.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_trapdoor.json"
+        ]
+      },
+      "path": "~/Blocks/Natural/Soulshire/Decorative"
     }
   ],
   "variable_elements": [],
@@ -2776,6 +2941,14 @@
       "~CUSTOM:RawSoulsteelBlock"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:SoulshireTrapdoor",
+      "~CUSTOM:SoulshireFence",
+      "~CUSTOM:SoulshireFenceGate",
+      "~CUSTOM:SoulshirePressurePlate",
+      "~CUSTOM:SoulshireButton",
+      "~CUSTOM:SoulshireDoor",
+      "~CUSTOM:SoulshireSlab",
+      "~CUSTOM:SoulshireStairs",
       "~CUSTOM:StrippedSoulshireWood",
       "~CUSTOM:StrippedSoulshireLog",
       "~CUSTOM:SoulshireWood",
@@ -2864,6 +3037,7 @@
       "CUSTOM:SoulshireVinesEndFruiting"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:SoulshireStairs",
       "~CUSTOM:HarshStonePolishedStairs",
       "~CUSTOM:HarshStoneBrickStairs",
       "~CUSTOM:LargeDryStonebrickStairs",
@@ -2884,6 +3058,7 @@
       "~CUSTOM:DryStoneWall"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:SoulshireSlab",
       "~CUSTOM:HarshStonePolishedSlab",
       "~CUSTOM:HarshStoneBrickSlab",
       "~CUSTOM:LargeDryStonebrickSlab",
@@ -2925,12 +3100,30 @@
     ],
     "ITEMS:syndred:midnight_axe_repair_items": [
       "~CUSTOM:MidnightIngot"
+    ],
+    "ITEMS:syndred:soulsteel_shovel_repair_items": [
+      "~CUSTOM:SoulsteelIngot"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:SoulshireTrapdoor"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:SoulshireDoor"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:SoulshireButton"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:SoulshirePressurePlate"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:SoulshireFence"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.syndred.syndred_tab": "Syndred Tab",
+      "item_group.syndred.syndred_tab": "Syndred",
       "item.syndred.raw_soulsteel": "Raw Soulsteel",
       "item.syndred.anima_conflux": "Anima Conflux",
       "item.syndred.deepslate_sphalerite_ore": "Deepslate Sphalerite Ore",
@@ -3015,7 +3208,16 @@
       "item.syndred.midnight_pickaxe": "Midnight Pickaxe",
       "item.syndred.midnight_hoe": "Midnight Hoe",
       "item.syndred.midnight_shovel": "Midnight Shovel",
-      "item.syndred.midnight_axe": "Midnight Axe"
+      "item.syndred.midnight_axe": "Midnight Axe",
+      "item.syndred.soulsteel_shovel": "Soulsteel Shovel",
+      "item.syndred.soulshire_stairs": "Soulshire Stairs",
+      "item.syndred.soulshire_slab": "Soulshire Stairs",
+      "item.syndred.soulshire_door": "Soulshire Stairs",
+      "item.syndred.soulshire_button": "Soulshire Stairs",
+      "item.syndred.soulshire_pressure_plate": "Soulshire Stairs",
+      "item.syndred.soulshire_fence_gate": "Soulshire Stairs",
+      "item.syndred.soulshire_fence": "Soulshire Stairs",
+      "item.syndred.soulshire_trapdoor": "Soulshire Stairs"
     }
   },
   "metadata": {
@@ -3138,7 +3340,17 @@
           },
           {
             "name": "Natural",
-            "children": []
+            "children": [
+              {
+                "name": "Soulshire",
+                "children": [
+                  {
+                    "name": "Decorative",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       },

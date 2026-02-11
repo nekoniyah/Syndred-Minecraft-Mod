@@ -1,10 +1,18 @@
 {
   "replace": false,
   "values": [
+    "syndred:soulshire_trapdoor",
+    "syndred:soulshire_pressure_plate",
     "syndred:stripped_soulshire_wood",
+    "syndred:soulshire_door",
+    "syndred:soulshire_slab",
+    "syndred:soulshire_button",
+    "syndred:soulshire_log",
+    "syndred:soulshire_fence",
+    "syndred:soulshire_stairs",
     "syndred:anima_conflux",
     "syndred:soulshire_wood",
     "syndred:stripped_soulshire_log",
-    "syndred:soulshire_log"
+    "syndred:soulshire_fence_gate"
   ]
 }

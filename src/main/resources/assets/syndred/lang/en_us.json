@@ -1,5 +1,5 @@
 {
-  "item_group.syndred.syndred_tab": "Syndred Tab",
+  "item_group.syndred.syndred_tab": "Syndred",
   "item.syndred.raw_soulsteel": "Raw Soulsteel",
   "item.syndred.anima_conflux": "Anima Conflux",
   "item.syndred.deepslate_sphalerite_ore": "Deepslate Sphalerite Ore",
@@ -84,5 +84,14 @@
   "item.syndred.midnight_pickaxe": "Midnight Pickaxe",
   "item.syndred.midnight_hoe": "Midnight Hoe",
   "item.syndred.midnight_shovel": "Midnight Shovel",
-  "item.syndred.midnight_axe": "Midnight Axe"
+  "item.syndred.midnight_axe": "Midnight Axe",
+  "item.syndred.soulsteel_shovel": "Soulsteel Shovel",
+  "item.syndred.soulshire_stairs": "Soulshire Stairs",
+  "item.syndred.soulshire_slab": "Soulshire Stairs",
+  "item.syndred.soulshire_door": "Soulshire Stairs",
+  "item.syndred.soulshire_button": "Soulshire Stairs",
+  "item.syndred.soulshire_pressure_plate": "Soulshire Stairs",
+  "item.syndred.soulshire_fence_gate": "Soulshire Stairs",
+  "item.syndred.soulshire_fence": "Soulshire Stairs",
+  "item.syndred.soulshire_trapdoor": "Soulshire Stairs"
 }

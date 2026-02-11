@@ -36,7 +36,6 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> SOULSTEEL_SWORD;
 	public static final DeferredItem<Item> SOULSTEEL_PICKAXE;
 	public static final DeferredItem<Item> SOULSTEEL_AXE;
-	public static final DeferredItem<Item> SOULSTEEL_SPADE;
 	public static final DeferredItem<Item> SOULSTEEL_HOE;
 	public static final DeferredItem<Item> DRY_STONE;
 	public static final DeferredItem<Item> HARSH_STONE;
@@ -91,15 +90,23 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_CHESTPLATE;
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_LEGGINGS;
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_BOOTS;
-	public static final DeferredItem<Item> SOULSHIRE_PLANKS;
+	public static final DeferredItem<Item> SOULSTEEL_GATHERER;
+	public static final DeferredItem<Item> SCARLET_BLOSSOM;
+	public static final DeferredItem<Item> MIDNIGHT_INGOT;
+	public static final DeferredItem<Item> MIDNIGHT_SWORD;
+	public static final DeferredItem<Item> MIDNIGHT_PICKAXE;
+	public static final DeferredItem<Item> MIDNIGHT_HOE;
+	public static final DeferredItem<Item> MIDNIGHT_SHOVEL;
+	public static final DeferredItem<Item> MIDNIGHT_AXE;
+	public static final DeferredItem<Item> SOULSTEEL_SHOVEL;
 	public static final DeferredItem<Item> SOULSHIRE_STAIRS;
 	public static final DeferredItem<Item> SOULSHIRE_SLAB;
-	public static final DeferredItem<Item> SOULSHIRE_FENCE;
-	public static final DeferredItem<Item> SOULSHIRE_FENCE_GATE;
 	public static final DeferredItem<Item> SOULSHIRE_DOOR;
-	public static final DeferredItem<Item> SOULSHIRE_TRAPDOOR;
 	public static final DeferredItem<Item> SOULSHIRE_BUTTON;
 	public static final DeferredItem<Item> SOULSHIRE_PRESSURE_PLATE;
+	public static final DeferredItem<Item> SOULSHIRE_FENCE_GATE;
+	public static final DeferredItem<Item> SOULSHIRE_FENCE;
+	public static final DeferredItem<Item> SOULSHIRE_TRAPDOOR;
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -117,7 +124,6 @@ public class SyndredModItems {
 		SOULSTEEL_SWORD = register("soulsteel_sword", SoulsteelSwordItem::new);
 		SOULSTEEL_PICKAXE = register("soulsteel_pickaxe", SoulsteelPickaxeItem::new);
 		SOULSTEEL_AXE = register("soulsteel_axe", SoulsteelAxeItem::new);
-		SOULSTEEL_SPADE = register("soulsteel_spade", SoulsteelSpadeItem::new);
 		SOULSTEEL_HOE = register("soulsteel_hoe", SoulsteelHoeItem::new);
 		DRY_STONE = block(SyndredModBlocks.DRY_STONE);
 		HARSH_STONE = block(SyndredModBlocks.HARSH_STONE);
@@ -172,15 +178,23 @@ public class SyndredModItems {
 		LEATHER_SOULSTEEL_CHESTPLATE = register("leather_soulsteel_chestplate", LeatherSoulsteelItem.Chestplate::new);
 		LEATHER_SOULSTEEL_LEGGINGS = register("leather_soulsteel_leggings", LeatherSoulsteelItem.Leggings::new);
 		LEATHER_SOULSTEEL_BOOTS = register("leather_soulsteel_boots", LeatherSoulsteelItem.Boots::new);
-		SOULSHIRE_PLANKS = block(SyndredModBlocks.SOULSHIRE_PLANKS);
+		SOULSTEEL_GATHERER = register("soulsteel_gatherer", SoulsteelGathererItem::new);
+		SCARLET_BLOSSOM = block(SyndredModBlocks.SCARLET_BLOSSOM);
+		MIDNIGHT_INGOT = register("midnight_ingot", MidnightIngotItem::new);
+		MIDNIGHT_SWORD = register("midnight_sword", MidnightSwordItem::new);
+		MIDNIGHT_PICKAXE = register("midnight_pickaxe", MidnightPickaxeItem::new);
+		MIDNIGHT_HOE = register("midnight_hoe", MidnightHoeItem::new);
+		MIDNIGHT_SHOVEL = register("midnight_shovel", MidnightShovelItem::new);
+		MIDNIGHT_AXE = register("midnight_axe", MidnightAxeItem::new);
+		SOULSTEEL_SHOVEL = register("soulsteel_shovel", SoulsteelShovelItem::new);
 		SOULSHIRE_STAIRS = block(SyndredModBlocks.SOULSHIRE_STAIRS);
 		SOULSHIRE_SLAB = block(SyndredModBlocks.SOULSHIRE_SLAB);
-		SOULSHIRE_FENCE = block(SyndredModBlocks.SOULSHIRE_FENCE);
-		SOULSHIRE_FENCE_GATE = block(SyndredModBlocks.SOULSHIRE_FENCE_GATE);
 		SOULSHIRE_DOOR = doubleBlock(SyndredModBlocks.SOULSHIRE_DOOR);
-		SOULSHIRE_TRAPDOOR = block(SyndredModBlocks.SOULSHIRE_TRAPDOOR);
 		SOULSHIRE_BUTTON = block(SyndredModBlocks.SOULSHIRE_BUTTON);
 		SOULSHIRE_PRESSURE_PLATE = block(SyndredModBlocks.SOULSHIRE_PRESSURE_PLATE);
+		SOULSHIRE_FENCE_GATE = block(SyndredModBlocks.SOULSHIRE_FENCE_GATE);
+		SOULSHIRE_FENCE = block(SyndredModBlocks.SOULSHIRE_FENCE);
+		SOULSHIRE_TRAPDOOR = block(SyndredModBlocks.SOULSHIRE_TRAPDOOR);
 	}
 
 	// Start of user code block custom items

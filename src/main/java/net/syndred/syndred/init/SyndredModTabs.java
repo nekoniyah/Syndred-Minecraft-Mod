@@ -96,6 +96,14 @@ public class SyndredModTabs {
 				tabData.accept(SyndredModItems.MIDNIGHT_SHOVEL.get());
 				tabData.accept(SyndredModItems.MIDNIGHT_AXE.get());
 				tabData.accept(SyndredModItems.SOULSTEEL_SHOVEL.get());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_STAIRS.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_SLAB.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_DOOR.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_BUTTON.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_PRESSURE_PLATE.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_FENCE_GATE.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_FENCE.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_TRAPDOOR.get().asItem());
 			}).build());
 
 	@SubscribeEvent
