@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "syndred:corrupted_ruins",
+  "step": "surface_structures"
+}

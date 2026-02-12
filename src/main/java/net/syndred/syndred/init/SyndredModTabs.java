@@ -104,11 +104,12 @@ public class SyndredModTabs {
 				tabData.accept(SyndredModBlocks.SOULSHIRE_FENCE_GATE.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSHIRE_FENCE.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSHIRE_TRAPDOOR.get().asItem());
-				tabData.accept(SyndredModBlocks.SOUL_MOSS_BLOCK.get().asItem());
-				tabData.accept(SyndredModBlocks.SOUL_SHRUB.get().asItem());
-				tabData.accept(SyndredModItems.SOUL_SHRUB_SEED.get());
-				tabData.accept(SyndredModBlocks.CHARGER_PLANT.get().asItem());
-				tabData.accept(SyndredModBlocks.SOUL_MOSS_CARPET.get().asItem());
+				tabData.accept(SyndredModItems.SPHALERITE_SWORD.get());
+				tabData.accept(SyndredModItems.SPHALERITE_PICKAXE.get());
+				tabData.accept(SyndredModItems.SPHALERITE_AXE.get());
+				tabData.accept(SyndredModItems.SPHALERITE_HOE.get());
+				tabData.accept(SyndredModItems.SPHALERITE_SHOVEL.get());
+				tabData.accept(SyndredModItems.SCARLET_CORE.get());
 			}).build());
 
 	@SubscribeEvent
@@ -121,6 +122,7 @@ public class SyndredModTabs {
 			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_LEGGINGS.get());
 			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_BOOTS.get());
 			tabData.accept(SyndredModItems.MIDNIGHT_SWORD.get());
+			tabData.accept(SyndredModItems.SPHALERITE_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SyndredModItems.SOULSTEEL_PICKAXE.get());
 			tabData.accept(SyndredModItems.SOULSTEEL_AXE.get());
@@ -130,6 +132,10 @@ public class SyndredModTabs {
 			tabData.accept(SyndredModItems.MIDNIGHT_SHOVEL.get());
 			tabData.accept(SyndredModItems.MIDNIGHT_AXE.get());
 			tabData.accept(SyndredModItems.SOULSTEEL_SHOVEL.get());
+			tabData.accept(SyndredModItems.SPHALERITE_PICKAXE.get());
+			tabData.accept(SyndredModItems.SPHALERITE_AXE.get());
+			tabData.accept(SyndredModItems.SPHALERITE_HOE.get());
+			tabData.accept(SyndredModItems.SPHALERITE_SHOVEL.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(SyndredModBlocks.DRY_STONE.get().asItem());
 			tabData.accept(SyndredModBlocks.HARSH_STONE.get().asItem());
@@ -140,10 +146,6 @@ public class SyndredModTabs {
 			tabData.accept(SyndredModBlocks.STRIPPED_SOULSHIRE_LOG.get().asItem());
 			tabData.accept(SyndredModBlocks.STRIPPED_SOULSHIRE_WOOD.get().asItem());
 			tabData.accept(SyndredModBlocks.SCARLET_BLOSSOM.get().asItem());
-			tabData.accept(SyndredModBlocks.SOUL_MOSS_BLOCK.get().asItem());
-			tabData.accept(SyndredModBlocks.SOUL_SHRUB.get().asItem());
-			tabData.accept(SyndredModBlocks.CHARGER_PLANT.get().asItem());
-			tabData.accept(SyndredModBlocks.SOUL_MOSS_CARPET.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(SyndredModItems.CHARGER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
@@ -182,7 +184,7 @@ public class SyndredModTabs {
 			tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED_SLAB.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(SyndredModItems.MIDNIGHT_INGOT.get());
-			tabData.accept(SyndredModItems.SOUL_SHRUB_SEED.get());
+			tabData.accept(SyndredModItems.SCARLET_CORE.get());
 		}
 	}
 }

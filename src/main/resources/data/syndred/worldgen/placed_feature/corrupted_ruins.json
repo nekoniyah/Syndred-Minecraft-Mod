@@ -1,0 +1,14 @@
+{
+  "feature": "syndred:corrupted_ruins",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:constant",
+        "value": {
+          "absolute": 64
+        }
+      }
+    }
+  ]
+}

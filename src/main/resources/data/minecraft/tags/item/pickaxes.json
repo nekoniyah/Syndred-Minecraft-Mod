@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "syndred:sphalerite_pickaxe",
     "syndred:midnight_pickaxe",
     "syndred:soulsteel_pickaxe"
   ]

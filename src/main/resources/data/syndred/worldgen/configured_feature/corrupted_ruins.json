@@ -1,0 +1,8 @@
+{
+  "type": "syndred:structure_feature",
+  "config": {
+    "structure": "syndred:corrupted_ruins",
+    "random_rotation": true,
+    "ignored_blocks": "minecraft:air"
+  }
+}

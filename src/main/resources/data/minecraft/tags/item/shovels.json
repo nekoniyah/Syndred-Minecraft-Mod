@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "syndred:sphalerite_shovel",
     "syndred:soulsteel_shovel",
     "syndred:midnight_shovel"
   ]

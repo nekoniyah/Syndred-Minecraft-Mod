@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "b ",
+    "b "
+  ],
+  "key": {
+    "a": "syndred:sphalerite_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "syndred:sphalerite_hoe",
+    "count": 1
+  }
+}

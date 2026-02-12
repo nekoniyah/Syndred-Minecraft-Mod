@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "b ",
+    "b "
+  ],
+  "key": {
+    "a": "syndred:soulsteel_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "syndred:soulsteel_hoe",
+    "count": 1
+  }
+}
