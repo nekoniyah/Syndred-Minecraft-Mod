@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "syndred:soulshire_forest",
+  "features": "syndred:moss_growth_when_bonemealed",
+  "step": "vegetal_decoration"
+}

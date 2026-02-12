@@ -1,12 +1,12 @@
 {
   "has_precipitation": true,
-  "temperature": 0.5,
-  "downfall": 0.5,
+  "temperature": 0.6,
+  "downfall": 0.7,
   "effects": {
     "foliage_color": -16737997,
-    "grass_color": -5043394,
+    "grass_color": -11362498,
     "sky_color": 7972607,
-    "fog_color": -3364211,
+    "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
@@ -56,7 +56,9 @@
     [
       "minecraft:lake_lava_underground"
     ],
-    [],
+    [
+      "minecraft:forest_rock"
+    ],
     [],
     [],
     [],
@@ -83,10 +85,10 @@
     [],
     [
       "minecraft:forest_flowers",
-      "minecraft:patch_grass_forest"
+      "minecraft:patch_large_fern",
+      "minecraft:patch_grass_forest",
+      "minecraft:patch_grass_jungle"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ]
 }

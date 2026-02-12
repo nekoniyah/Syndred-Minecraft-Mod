@@ -26,6 +26,8 @@ import net.minecraft.core.BlockPos;
 import javax.annotation.Nullable;
 
 public class SoulshireVinesEndBlock extends Block {
+	private static final VoxelShape SHAPE = box(1, 0, 1, 14, 16, 14);
+
 	public SoulshireVinesEndBlock(BlockBehaviour.Properties properties) {
 		super(properties.mapColor(MapColor.NETHER).sound(SoundType.VINE).strength(0.2f, 10f).requiresCorrectToolForDrops().noCollission().noOcclusion().randomTicks().isRedstoneConductor((bs, br, bp) -> false).ignitedByLava());
 	}
@@ -47,7 +49,7 @@ public class SoulshireVinesEndBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(1, 0, 1, 14, 16, 14);
+		return (SHAPE);
 	}
 
 	@Override

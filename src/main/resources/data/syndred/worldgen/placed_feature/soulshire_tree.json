@@ -9,8 +9,8 @@
       "type": "minecraft:count",
       "count": {
         "type": "uniform",
-        "min_inclusive": 1,
-        "max_inclusive": 2
+        "min_inclusive": 4,
+        "max_inclusive": 8
       }
     },
     {
@@ -38,7 +38,8 @@
         "blocks": [
           "minecraft:grass_block",
           "minecraft:podzol",
-          "minecraft:moss_block"
+          "minecraft:moss_block",
+          "syndred:soul_moss_block"
         ],
         "offset": [
           0,

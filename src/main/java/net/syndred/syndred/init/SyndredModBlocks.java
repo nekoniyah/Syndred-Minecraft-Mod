@@ -78,6 +78,10 @@ public class SyndredModBlocks {
 	public static final DeferredBlock<Block> SOULSHIRE_FENCE_GATE;
 	public static final DeferredBlock<Block> SOULSHIRE_FENCE;
 	public static final DeferredBlock<Block> SOULSHIRE_TRAPDOOR;
+	public static final DeferredBlock<Block> SOUL_MOSS_BLOCK;
+	public static final DeferredBlock<Block> SOUL_SHRUB;
+	public static final DeferredBlock<Block> CHARGER_PLANT;
+	public static final DeferredBlock<Block> SOUL_MOSS_CARPET;
 	static {
 		ANIMA_CONFLUX = register("anima_conflux", AnimaConfluxBlock::new);
 		DEEPSLATE_SPHALERITE_ORE = register("deepslate_sphalerite_ore", DeepslateSphaleriteOreBlock::new);
@@ -141,6 +145,10 @@ public class SyndredModBlocks {
 		SOULSHIRE_FENCE_GATE = register("soulshire_fence_gate", SoulshireFenceGateBlock::new);
 		SOULSHIRE_FENCE = register("soulshire_fence", SoulshireFenceBlock::new);
 		SOULSHIRE_TRAPDOOR = register("soulshire_trapdoor", SoulshireTrapdoorBlock::new);
+		SOUL_MOSS_BLOCK = register("soul_moss_block", SoulMossBlockBlock::new);
+		SOUL_SHRUB = register("soul_shrub", SoulShrubBlock::new);
+		CHARGER_PLANT = register("charger_plant", ChargerPlantBlock::new);
+		SOUL_MOSS_CARPET = register("soul_moss_carpet", SoulMossCarpetBlock::new);
 	}
 
 	// Start of user code block custom blocks

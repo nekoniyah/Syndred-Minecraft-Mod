@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "syndred:item/soulsteel_shovel"
+  }
+}

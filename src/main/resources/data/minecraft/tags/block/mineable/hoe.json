@@ -1,9 +1,11 @@
 {
   "replace": false,
   "values": [
+    "syndred:soul_moss_carpet",
     "syndred:soulshire_vines_fruiting",
     "syndred:soulshire_vines_end",
     "syndred:soulshire_vines",
-    "syndred:soulshire_vines_end_fruiting"
+    "syndred:soulshire_vines_end_fruiting",
+    "syndred:soul_moss_block"
   ]
 }

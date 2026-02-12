@@ -87,11 +87,16 @@
   "item.syndred.midnight_axe": "Midnight Axe",
   "item.syndred.soulsteel_shovel": "Soulsteel Shovel",
   "item.syndred.soulshire_stairs": "Soulshire Stairs",
-  "item.syndred.soulshire_slab": "Soulshire Stairs",
-  "item.syndred.soulshire_door": "Soulshire Stairs",
-  "item.syndred.soulshire_button": "Soulshire Stairs",
-  "item.syndred.soulshire_pressure_plate": "Soulshire Stairs",
-  "item.syndred.soulshire_fence_gate": "Soulshire Stairs",
-  "item.syndred.soulshire_fence": "Soulshire Stairs",
-  "item.syndred.soulshire_trapdoor": "Soulshire Stairs"
+  "item.syndred.soulshire_slab": "Soulshire Slab",
+  "item.syndred.soulshire_door": "Soulshire Door",
+  "item.syndred.soulshire_button": "Soulshire Button",
+  "item.syndred.soulshire_pressure_plate": "Soulshire Pressure Plate",
+  "item.syndred.soulshire_fence_gate": "Soulshire Fence Gate",
+  "item.syndred.soulshire_fence": "Soulshire Fence",
+  "item.syndred.soulshire_trapdoor": "Soulshire Trapdoor",
+  "item.syndred.soul_moss_block": "Soul Moss Block",
+  "item.syndred.soul_shrub": "Soul Shrub",
+  "item.syndred.soul_shrub_seed": "Soul Shrub Seed",
+  "item.syndred.charger_plant": "Charger Plant",
+  "item.syndred.soul_moss_carpet": "Soul Moss Carpet"
 }

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "syndred:soulshire_forest",
+  "features": "syndred:charger_plant",
+  "step": "vegetal_decoration"
+}

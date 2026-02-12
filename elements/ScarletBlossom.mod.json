@@ -111,9 +111,13 @@
     "isBonemealable": false,
     "frequencyOnChunks": 7,
     "generateFeature": true,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SoulshireForest"
+      }
+    ],
     "generationType": "Flower",
-    "patchSize": 24,
+    "patchSize": 12,
     "generateAtAnyHeight": true,
     "onEntityCollides": {
       "name": "ScarletBlossomMobplayerCollidesWithPlant"

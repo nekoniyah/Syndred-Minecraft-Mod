@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "syndred:block/soul_moss_block",
+    "particle": "syndred:block/soul_moss_block"
+  },
+  "render_type": "solid"
+}

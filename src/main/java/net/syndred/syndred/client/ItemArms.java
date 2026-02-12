@@ -1,4 +1,4 @@
-package net.mcreator.syndred.client;
+package net.syndred.syndred.client;
 
 import org.joml.Vector3f;
 

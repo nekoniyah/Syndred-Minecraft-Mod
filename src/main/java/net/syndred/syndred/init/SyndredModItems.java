@@ -107,6 +107,11 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> SOULSHIRE_FENCE_GATE;
 	public static final DeferredItem<Item> SOULSHIRE_FENCE;
 	public static final DeferredItem<Item> SOULSHIRE_TRAPDOOR;
+	public static final DeferredItem<Item> SOUL_MOSS_BLOCK;
+	public static final DeferredItem<Item> SOUL_SHRUB;
+	public static final DeferredItem<Item> SOUL_SHRUB_SEED;
+	public static final DeferredItem<Item> CHARGER_PLANT;
+	public static final DeferredItem<Item> SOUL_MOSS_CARPET;
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -195,6 +200,11 @@ public class SyndredModItems {
 		SOULSHIRE_FENCE_GATE = block(SyndredModBlocks.SOULSHIRE_FENCE_GATE);
 		SOULSHIRE_FENCE = block(SyndredModBlocks.SOULSHIRE_FENCE);
 		SOULSHIRE_TRAPDOOR = block(SyndredModBlocks.SOULSHIRE_TRAPDOOR);
+		SOUL_MOSS_BLOCK = block(SyndredModBlocks.SOUL_MOSS_BLOCK);
+		SOUL_SHRUB = block(SyndredModBlocks.SOUL_SHRUB);
+		SOUL_SHRUB_SEED = register("soul_shrub_seed", SoulShrubSeedItem::new);
+		CHARGER_PLANT = block(SyndredModBlocks.CHARGER_PLANT);
+		SOUL_MOSS_CARPET = block(SyndredModBlocks.SOUL_MOSS_CARPET);
 	}
 
 	// Start of user code block custom items

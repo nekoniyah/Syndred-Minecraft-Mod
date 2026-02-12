@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "syndred:blocks/soul_shrub",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "syndred:soul_shrub_seed",
+          "functions": [
+            {
+              "count": 2,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

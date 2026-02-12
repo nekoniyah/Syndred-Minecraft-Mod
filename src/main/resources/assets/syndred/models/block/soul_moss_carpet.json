@@ -1,0 +1,9 @@
+{
+  "parent": "syndred:custom/moss_carpet_model",
+  "textures": {
+    "all": "syndred:block/soul_moss_block",
+    "particle": "syndred:block/soul_moss_block",
+    "1": "syndred:block/soul_moss_block"
+  },
+  "render_type": "solid"
+}

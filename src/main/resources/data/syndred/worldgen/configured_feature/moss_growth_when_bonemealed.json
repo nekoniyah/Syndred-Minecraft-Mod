@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "floor",
+    "xz_radius": {
+      "type": "uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 4
+    },
+    "vertical_range": 2,
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:random_selector",
+        "config": {
+          "default": {
+            "feature": {
+              "type": "minecraft:no_op",
+              "config": {}
+            },
+            "placement": []
+          },
+          "features": [
+            {
+              "chance": 0.7,
+              "feature": {
+                "feature": "syndred:soul_moss_carpet_feature",
+                "placement": []
+              }
+            },
+            {
+              "chance": 0.5,
+              "feature": {
+                "feature": "syndred:scarlet_blossom",
+                "placement": []
+              }
+            },
+            {
+              "chance": 0.5,
+              "feature": {
+                "feature": "syndred:soul_shrub",
+                "placement": []
+              }
+            },
+            {
+              "chance": 0.5,
+              "feature": {
+                "feature": "syndred:charger_plant",
+                "placement": []
+              }
+            }
+          ]
+        }
+      },
+      "placement": []
+    },
+    "vegetation_chance": 0.05,
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "syndred:soul_moss_block"
+      }
+    },
+    "replaceable": "#lush_ground_replaceable",
+    "depth": {
+      "type": "uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 2
+    },
+    "extra_bottom_block_chance": 0.8,
+    "extra_edge_column_chance": 0.7
+  }
+}

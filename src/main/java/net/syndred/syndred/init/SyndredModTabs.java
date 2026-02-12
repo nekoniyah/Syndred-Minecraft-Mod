@@ -104,6 +104,11 @@ public class SyndredModTabs {
 				tabData.accept(SyndredModBlocks.SOULSHIRE_FENCE_GATE.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSHIRE_FENCE.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSHIRE_TRAPDOOR.get().asItem());
+				tabData.accept(SyndredModBlocks.SOUL_MOSS_BLOCK.get().asItem());
+				tabData.accept(SyndredModBlocks.SOUL_SHRUB.get().asItem());
+				tabData.accept(SyndredModItems.SOUL_SHRUB_SEED.get());
+				tabData.accept(SyndredModBlocks.CHARGER_PLANT.get().asItem());
+				tabData.accept(SyndredModBlocks.SOUL_MOSS_CARPET.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -135,6 +140,10 @@ public class SyndredModTabs {
 			tabData.accept(SyndredModBlocks.STRIPPED_SOULSHIRE_LOG.get().asItem());
 			tabData.accept(SyndredModBlocks.STRIPPED_SOULSHIRE_WOOD.get().asItem());
 			tabData.accept(SyndredModBlocks.SCARLET_BLOSSOM.get().asItem());
+			tabData.accept(SyndredModBlocks.SOUL_MOSS_BLOCK.get().asItem());
+			tabData.accept(SyndredModBlocks.SOUL_SHRUB.get().asItem());
+			tabData.accept(SyndredModBlocks.CHARGER_PLANT.get().asItem());
+			tabData.accept(SyndredModBlocks.SOUL_MOSS_CARPET.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(SyndredModItems.CHARGER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
@@ -173,6 +182,7 @@ public class SyndredModTabs {
 			tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED_SLAB.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(SyndredModItems.MIDNIGHT_INGOT.get());
+			tabData.accept(SyndredModItems.SOUL_SHRUB_SEED.get());
 		}
 	}
 }

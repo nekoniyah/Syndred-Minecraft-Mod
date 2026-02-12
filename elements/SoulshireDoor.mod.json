@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "",
+    "itemTexture": "soulshire_door",
     "particleTexture": "",
     "blockBase": "Door",
     "blockSetType": "OAK",
@@ -40,7 +40,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Soulshire Stairs",
+    "name": "Soulshire Door",
     "specialInformation": {
       "fixedValue": []
     },

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "syndred:block/soul_shrub",
+    "particle": "syndred:block/soul_shrub"
+  },
+  "render_type": "cutout"
+}

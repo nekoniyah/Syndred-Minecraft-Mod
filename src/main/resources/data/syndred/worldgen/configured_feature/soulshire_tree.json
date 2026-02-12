@@ -18,7 +18,12 @@
               "structure": "syndred:soulshiretree01",
               "random_rotation": true,
               "random_mirror": true,
-              "ignored_blocks": "minecraft:air"
+              "ignored_blocks": "minecraft:air",
+              "offset": [
+                -4,
+                -1,
+                -4
+              ]
             }
           },
           "placement": []
@@ -33,7 +38,12 @@
               "structure": "syndred:soulshiretree02",
               "random_rotation": true,
               "random_mirror": true,
-              "ignored_blocks": "minecraft:air"
+              "ignored_blocks": "minecraft:air",
+              "offset": [
+                -4,
+                -1,
+                -4
+              ]
             }
           },
           "placement": []
@@ -48,7 +58,12 @@
               "structure": "syndred:soulshiretree03",
               "random_rotation": true,
               "random_mirror": true,
-              "ignored_blocks": "minecraft:air"
+              "ignored_blocks": "minecraft:air",
+              "offset": [
+                -4,
+                -1,
+                -4
+              ]
             }
           },
           "placement": []
@@ -63,7 +78,12 @@
               "structure": "syndred:soulshiretree04",
               "random_rotation": true,
               "random_mirror": true,
-              "ignored_blocks": "minecraft:air"
+              "ignored_blocks": "minecraft:air",
+              "offset": [
+                -4,
+                -1,
+                -4
+              ]
             }
           },
           "placement": []
@@ -78,7 +98,12 @@
               "structure": "syndred:soulshiretree05",
               "random_rotation": true,
               "random_mirror": true,
-              "ignored_blocks": "minecraft:air"
+              "ignored_blocks": "minecraft:air",
+              "offset": [
+                -4,
+                -1,
+                -4
+              ]
             }
           },
           "placement": []
@@ -93,7 +118,12 @@
               "structure": "syndred:soulshiretree06",
               "random_rotation": true,
               "random_mirror": true,
-              "ignored_blocks": "minecraft:air"
+              "ignored_blocks": "minecraft:air",
+              "offset": [
+                -4,
+                -1,
+                -4
+              ]
             }
           },
           "placement": []
